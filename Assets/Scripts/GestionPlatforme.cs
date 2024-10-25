@@ -1,25 +1,27 @@
 using System.Collections;
 using System.Collections.Generic;
-using NUnit.Framework.Constraints;
 using UnityEngine;
 
 public class GestionPlatforme : MonoBehaviour
 {
-    Material[] rangeCouleurPlatforme;
+
+    
+   public Material[] rangeCouleurPlatforme;
+    int couleurChoisie;
     // Start is called before the first frame update
     void Start()
     {
-        int couleurChoisie = Random.Range(-10, 10);
+        couleurChoisie = Random.Range(0, 8);
         ChangerCouleurPlatforme(couleurChoisie);
     }
 
     // Update is called once per frame
     void Update()
     {
-         
+
     }
 
-    void ChangerCouleurPlatforme(couleur){
+    void ChangerCouleurPlatforme(int couleur){
         GetComponent<Renderer>().material = rangeCouleurPlatforme[couleur];
     }
 }
