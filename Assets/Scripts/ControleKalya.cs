@@ -4,85 +4,90 @@ using UnityEngine;
 
 public class DeplacementPersoScript : MonoBehaviour
 {
+    public float vitesse;// vitesse de déplacement
+    public float vitesseTourne; // vitesse de rotation
+    private CharacterController controleur; // référence au component characterController
 
-   /*#################################################
-    -- variables publiques à définir dans l'inspecteur
-   #################################################*/
-    public GameObject cameraPerso; //la caméra qui doit suivre le perso. À définir dans l'inspecteur
-    public Vector3 distanceCamera; // la distance à laquelle la caméra doit suivre le perso.
-    public float vitesseDeplacementPerso; // vitesse de déplacement du personnage
-    public float vitesseRotationPerso;// vitesse de rotation du personnage lorsque la souris se déplace horizontalement
-    public bool curseurLock; // On vérouille ou non le curseur.
+    public float forceDuSaut; // hauteur du saut
+    public float gravite; // force de la gravité
 
-   
+    private float velocitePersoY;
+
+    private bool toucheSaut;
+
+    public bool auSol;
+    public bool avecAnimationPerso;
 
     void Start()
     {
-        // Active le verrouillage du curseur seulement si l'option est cochée. Utilie seulement avec la caméra simple "rotate".
-        if(curseurLock)Cursor.lockState = CursorLockMode.Locked;
+        // Permet de verrouiller le curseur et de le masquer
+        Cursor.lockState = CursorLockMode.Locked;
+        // On garde dans une variable la référence au component CharacterController
+        controleur = GetComponent<CharacterController>();
     }
 
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            toucheSaut = true;
+        }
+    }
 
-    /*
-     * Fonction FixeUpdate pour le déplacement du perso, la gestion des animations du perso et l'ajustement de la 
-     * position et de la rotation de la caméra
-     */
+    // Gestion du déplacement du CharacterController avec Move qui permet le saut.
     void FixedUpdate()
     {
-        /* ### déplacement du perso ###
-        On commence par récupérer les valeurs de l'axe vertical et de l'axe horizontal. 
-        GetAxisRaw renvoie une valeur soit de -1, 0 ou 1. Aucune progression comme avec GetAxis.*/
-        float axeH = Input.GetAxisRaw("Horizontal");
-        float axeV = Input.GetAxisRaw("Vertical");
-        /*
-         **** déplacement du personnage --> partie à compléter ****
-         *
-        On modifie la vélocité du personnage en lui donnant un nouveau vector 3 composé de la valeur des axes vertical et
-        horizontal. Ce vecteur doit être normalisé (pour éviter que le personnage se déplace plus vite en diagonale.
-        On multiplie ce vecteur par la variable vitesseDeplacementPerso pour pouvoir ajuste la vitesse de déplacement.*/
-        GetComponent<Rigidbody>().velocity = new Vector3(axeH, 0f, axeV).normalized *vitesseDeplacementPerso;
-        //----------------------------------------------------------------------------------------------
 
-        /* ### rotation du personnage simple ###
-         * on tourne le personnage en fonctione du déplacement horizontal de la souris. On mutliplie par la variable
-         * vitesseRotationPerso pour pouvoir contrôler la vitesse de rotation*/
-        //float tourne = Input.GetAxis("Mouse X") * vitesseRotationPerso;
-        //transform.Rotate(0f, tourne, 0f);
 
-        /* ### rotation du personnage complexe, mais plus précise pour le tir. Activer cette fonction pour qu'elle s'exécute
-         * et mettre en commentaire la rotation simple.*/
+        // on mémorise la valeur des axes Horizontal et Vertical. On pourrait utiliser GetAxisRaw aussi.
+        float deplaceX = Input.GetAxisRaw("Horizontal");
+        float deplaceZ = Input.GetAxisRaw("Vertical");
+
+        // transform.TransformDirection permet de transformer une direction locale en direction du monde (local space to world space)
+        // On calcul le vecteur de déplacement en utilisant la direction qu'on mutiplie par la vitesse;
+        Vector3 deplacement = transform.TransformDirection(new Vector3(deplaceX, 0f, deplaceZ) * vitesse);
+
+
+
+        // Permet de savoir si le characterController touche au sol
+        auSol = controleur.isGrounded;
+
+        // On remet la velocitePersoY à 0 si le personnage est au sol et que la velocitePerso est
+        // plus petite que zéro.
+        if (auSol && velocitePersoY < 0) velocitePersoY = 0f;
+
+        // On permet le saut seulement si le characterController est au sol (avec la touche espace)
+        if (toucheSaut && auSol)
+        {
+            velocitePersoY = forceDuSaut; // On ajuste la variable velociteYPerso à la force du saut.
+            toucheSaut = false;
+            GetComponent<Animator>().SetTrigger("saut"); //On active le trigger pour l'animation du saut 
+
+            if (auSol)
+            {
+                GetComponent<Animator>().SetTrigger("atterrissage");
+            }
+        }
+
+        velocitePersoY += gravite * Time.deltaTime; // On applique la gravité à la variable velocitePersoY (soustraction d'une valeur à velocityPerso
+
+
+
+        // On ajuste la valeur Y de notre variable de déplacement
+        deplacement.y = velocitePersoY;
+
+        // On applique le déplacement. Multiplié par Time.deltaTime pour éviter la variation du frameRate
+        controleur.Move(deplacement * Time.deltaTime);
+
+        // On fait tourner le personnage en fonction du déplacement horizontal de la souris
+        float tourne = Input.GetAxis("Mouse X") * vitesseTourne * Time.deltaTime;
+        transform.Rotate(0f, tourne, 0f);
+
+        if (avecAnimationPerso) GestionAnim(deplacement);
         TournePersonnage();
 
-        //----------------------------------------------------------------------------------------------
-
-        /* 
-         **** gestion des animations --> partie à compléter ****
-         *
-         * Activation de l'animation de marche si la magnitude de la vélocité est plus grande que 0. Si ce n'est pas le cas
-         * on active l'animation de repos. GetComponent<Rigidbody>().velocity.magnitude...
-         * 
-        */
-        if(GetComponent<Rigidbody>().velocity.magnitude > 0){
-            GetComponent<Animator>().SetBool("marche", true);
-        }
-        else{
-            GetComponent<Animator>().SetBool("marche", false);   
-        }
-
-        //----------------------------------------------------------------------------------------------
-
-        /* positionnement de la caméra qui suit le joueur. On place la caméra à la position actuelle du joueur en ajoutant
-         * une distance (variable distanceCamera). On fait aussi un LookAt pour s'assurer que la caméra regarde vers le joueur*/
-        cameraPerso.transform.position = transform.position + distanceCamera;
-        cameraPerso.transform.LookAt(transform.position);
-
-        //----------------------------------------------------------------------------------------------
     }
 
-    /*
-     * Fonction TournePersonnage qui permet de faire pivoter le personnage en fonction de la position de la caméra et du curseur
-     * de la souris.
-     */
     void TournePersonnage()
     {
         /*crée un rayon à partir de la caméra vers l’avant à la position de la souris. Le rayon est mémorisé dans la variable
@@ -91,18 +96,6 @@ public class DeplacementPersoScript : MonoBehaviour
 
         // variable locale infoCollision : contiendra les infos retournées par le Raycast sur l’objet touché 
         RaycastHit infoCollision;
-
-        /* lance un rayon de 5000 unités à partir du rayon crée précédemment, vérifie seulement la collision avec le plancher en
-         * spécifiant un LayerMask. Le plancher doit avoir un layerMask (exemple:“Plancher”) assigné dans l’inspecteur.
-         * La commande RayCast renvoie True ou False (true si le plancher est touché par le rayon dans ce cas). Il est donc possible
-         * de l'utiliser dans un if.
-         * 
-         * Dans l'ordre, les paramètres du RayCast sont :
-         * 1- le point d'origine du rayon
-         * 2- la direction dans lequel le rayon doit être tracé.
-         * 3- la variable qui récoltera les informations s'il y a un contact du rayon. Ne pas oublier le mot clé "out".
-         * 4- la longueur du rayon tracé
-         * 5- le layerMask qui permet de tenir compte seulement des objets qui sont sur ce layer.*/
 
         if (Physics.Raycast(camRay.origin, camRay.direction, out infoCollision, 5000, LayerMask.GetMask("zoneTerrain")))
         {
@@ -118,7 +111,16 @@ public class DeplacementPersoScript : MonoBehaviour
             transform.localEulerAngles = rotationActuelle;
         }
         //outil de déboggage pour visualiser le rayon dans l'onglet scene
-        Debug.DrawRay(camRay.origin, camRay.direction * 100, Color.yellow);   
+        Debug.DrawRay(camRay.origin, camRay.direction * 100, Color.yellow);
+    }
+
+    void GestionAnim(Vector3 valeurDeplacement)
+    {
+        valeurDeplacement.y = 0f;
+        bool marche = false;
+        if (valeurDeplacement.magnitude > 1f) marche = true;
+        GetComponent<Animator>().SetBool("marche", marche);
+
     }
 }
 
