@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DeplacementPersoScript : MonoBehaviour
+public class ControleKalya : MonoBehaviour
 {
     public float vitesse;// vitesse de déplacement
     public float vitesseTourne; // vitesse de rotation
@@ -17,6 +17,7 @@ public class DeplacementPersoScript : MonoBehaviour
 
     public bool auSol;
     public bool avecAnimationPerso;
+    public bool finPartie;
 
     void Start()
     {

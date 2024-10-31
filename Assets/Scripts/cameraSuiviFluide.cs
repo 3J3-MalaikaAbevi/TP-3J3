@@ -1,3 +1,9 @@
+/* Fonctionnement et utilité générale du script
+   Gestion de la caméra qui fait un suivi fluide (avec un amortissement du mouvement) 
+    de Kaya en Third Person Perspective
+   Par : Malaïka Abevi
+   Dernière modification : 29/10/2024
+*/
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -14,7 +20,6 @@ public class cameraSuiviFluide : MonoBehaviour
 
     }
 
-    // Update is called once per frame
     void FixedUpdate()
     {
 
