@@ -190,6 +190,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &478706
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -408,6 +409,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &4831332
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -471,19 +473,19 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1722894862}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: fb3fc1a1a5e82e448ae1b15c356c4c7b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 312.12375
+      value: -119.08032
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fb3fc1a1a5e82e448ae1b15c356c4c7b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 9.002022
+      value: -0.6990099
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fb3fc1a1a5e82e448ae1b15c356c4c7b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 366.87408
+      value: 2.5834045
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fb3fc1a1a5e82e448ae1b15c356c4c7b, type: 3}
       propertyPath: m_LocalRotation.w
@@ -495,7 +497,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fb3fc1a1a5e82e448ae1b15c356c4c7b, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fb3fc1a1a5e82e448ae1b15c356c4c7b, type: 3}
       propertyPath: m_LocalRotation.z
@@ -522,6 +524,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fb3fc1a1a5e82e448ae1b15c356c4c7b, type: 3}
+--- !u!4 &5966640 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: fb3fc1a1a5e82e448ae1b15c356c4c7b, type: 3}
+  m_PrefabInstance: {fileID: 5966639}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &9002197
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -719,6 +726,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &13933880
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -847,6 +855,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &16901738
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -939,6 +948,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &17235136
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1031,6 +1041,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &21442903
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1123,6 +1134,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &21696658
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1215,6 +1227,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &27677984
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1352,6 +1365,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &60089120
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1525,6 +1539,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &62784357
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1588,19 +1603,19 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1722894862}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: d778ab8a70e14dd418d9fc659901e15b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 528.6827
+      value: 97.47861
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d778ab8a70e14dd418d9fc659901e15b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7.1730437
+      value: -2.527988
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d778ab8a70e14dd418d9fc659901e15b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 461.6485
+      value: 97.35782
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d778ab8a70e14dd418d9fc659901e15b, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1612,7 +1627,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d778ab8a70e14dd418d9fc659901e15b, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d778ab8a70e14dd418d9fc659901e15b, type: 3}
       propertyPath: m_LocalRotation.z
@@ -1639,6 +1654,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d778ab8a70e14dd418d9fc659901e15b, type: 3}
+--- !u!4 &63161462 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d778ab8a70e14dd418d9fc659901e15b, type: 3}
+  m_PrefabInstance: {fileID: 63161461}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &64654709
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1755,6 +1775,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &64654715
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1883,6 +1904,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &69286250
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1975,6 +1997,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &70000098
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2067,6 +2090,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &70344790
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2209,6 +2233,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &83668995
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2337,6 +2362,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &86640648
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2591,6 +2617,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &93250289
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2838,6 +2865,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &109373697
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2930,6 +2958,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &113115746
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3022,6 +3051,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &115387225
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3114,6 +3144,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &124274501
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3251,6 +3282,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &126588475
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3379,6 +3411,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &130008052
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3597,6 +3630,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &145302073
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3725,6 +3759,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &150536570
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3817,6 +3852,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &156224030
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3954,6 +3990,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &158543563
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4163,6 +4200,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &160801901
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4300,6 +4338,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &164334354
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4428,6 +4467,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &167050224
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4605,6 +4645,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &168940347
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4823,6 +4864,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &176133355
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5113,6 +5155,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &184412629
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5427,6 +5470,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &193259963
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5645,6 +5689,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &196159448
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5935,6 +5980,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &199523548
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6108,6 +6154,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &200801864
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6236,6 +6283,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &206913432
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6373,6 +6421,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &207506145
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6501,6 +6550,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &213125707
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6719,6 +6769,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &219725949
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6847,6 +6898,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &221771709
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6984,6 +7036,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &231794484
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7319,6 +7372,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &257535112
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7447,6 +7501,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &261168650
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7539,6 +7594,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &262440088
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7874,6 +7930,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &281937496
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8092,6 +8149,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &286802174
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8220,6 +8278,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &291468685
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8547,6 +8606,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &313038152
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8684,6 +8744,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &314941544
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8857,6 +8918,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &318303086
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8985,6 +9047,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &318977623
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9012,19 +9075,19 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1722894862}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: d778ab8a70e14dd418d9fc659901e15b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 312.1302
+      value: -119.07388
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d778ab8a70e14dd418d9fc659901e15b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 11.758548
+      value: 2.057516
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d778ab8a70e14dd418d9fc659901e15b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 319.26785
+      value: -45.022827
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d778ab8a70e14dd418d9fc659901e15b, type: 3}
       propertyPath: m_LocalRotation.w
@@ -9036,7 +9099,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d778ab8a70e14dd418d9fc659901e15b, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d778ab8a70e14dd418d9fc659901e15b, type: 3}
       propertyPath: m_LocalRotation.z
@@ -9063,6 +9126,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d778ab8a70e14dd418d9fc659901e15b, type: 3}
+--- !u!4 &319020468 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d778ab8a70e14dd418d9fc659901e15b, type: 3}
+  m_PrefabInstance: {fileID: 319020467}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &319740433 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 6392a159be733f44f8e17c1362ddfd61, type: 3}
@@ -9134,6 +9202,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &319740438
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9271,6 +9340,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &320826794
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9399,6 +9469,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &321541315
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9431,19 +9502,19 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1722894862}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: e0beff90d44cadb4882c9acb1889c067, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 398.73044
+      value: -32.473633
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e0beff90d44cadb4882c9acb1889c067, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.1337368
+      value: -7.567295
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e0beff90d44cadb4882c9acb1889c067, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 292.3369
+      value: -71.953766
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e0beff90d44cadb4882c9acb1889c067, type: 3}
       propertyPath: m_LocalRotation.w
@@ -9455,7 +9526,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e0beff90d44cadb4882c9acb1889c067, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e0beff90d44cadb4882c9acb1889c067, type: 3}
       propertyPath: m_LocalRotation.z
@@ -9482,6 +9553,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e0beff90d44cadb4882c9acb1889c067, type: 3}
+--- !u!4 &328696380 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: e0beff90d44cadb4882c9acb1889c067, type: 3}
+  m_PrefabInstance: {fileID: 328696379}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &329560706
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9679,6 +9755,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &331159520
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10014,6 +10091,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &337492063
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10385,6 +10463,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &351156015
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10522,6 +10601,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &354902342
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10781,6 +10861,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &367627294
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10954,6 +11035,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &368220422
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11127,6 +11209,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &368235596
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11255,6 +11338,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &379128136
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11347,6 +11431,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &379920709
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11439,6 +11524,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &380695190
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11531,6 +11617,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &385165393
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11623,6 +11710,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &393614148
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11841,6 +11929,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &396031585
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12050,6 +12139,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &399632858
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12142,6 +12232,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &402016862
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12388,6 +12479,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &416599474
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12480,6 +12572,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &417095135
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12779,6 +12872,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &421028418
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12842,19 +12936,19 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1722894862}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: e0beff90d44cadb4882c9acb1889c067, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 447.97003
+      value: 16.76596
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e0beff90d44cadb4882c9acb1889c067, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.484049
+      value: -3.2169828
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e0beff90d44cadb4882c9acb1889c067, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 439.76495
+      value: 75.47427
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e0beff90d44cadb4882c9acb1889c067, type: 3}
       propertyPath: m_LocalRotation.w
@@ -12866,7 +12960,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e0beff90d44cadb4882c9acb1889c067, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e0beff90d44cadb4882c9acb1889c067, type: 3}
       propertyPath: m_LocalRotation.z
@@ -12893,6 +12987,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e0beff90d44cadb4882c9acb1889c067, type: 3}
+--- !u!4 &421618526 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: e0beff90d44cadb4882c9acb1889c067, type: 3}
+  m_PrefabInstance: {fileID: 421618525}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &429332158
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13322,6 +13421,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &436293224
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13531,6 +13631,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &452459169
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13623,6 +13724,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &467385245
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13715,6 +13817,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &472235594
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13852,6 +13955,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &477805836
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13980,6 +14084,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &479226014
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14117,6 +14222,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &489635028
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14488,6 +14594,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &501101673
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14661,6 +14768,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &505591294
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14753,6 +14861,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &507576866
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14890,6 +14999,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &508725660
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15144,6 +15254,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &514260918
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15317,6 +15428,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &514369907
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15652,6 +15764,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &529628470
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15906,6 +16019,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &534778008
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16079,6 +16193,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &547105023
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16252,6 +16367,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &549594868
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16315,19 +16431,19 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1722894862}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: a2b772a0e729c8947903497ce449bdb9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 461.7
+      value: 30.495941
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a2b772a0e729c8947903497ce449bdb9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 12.3
+      value: 2.5989685
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a2b772a0e729c8947903497ce449bdb9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 257.1
+      value: -107.190674
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a2b772a0e729c8947903497ce449bdb9, type: 3}
       propertyPath: m_LocalRotation.w
@@ -16339,7 +16455,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a2b772a0e729c8947903497ce449bdb9, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a2b772a0e729c8947903497ce449bdb9, type: 3}
       propertyPath: m_LocalRotation.z
@@ -16366,6 +16482,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a2b772a0e729c8947903497ce449bdb9, type: 3}
+--- !u!4 &551592467 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: a2b772a0e729c8947903497ce449bdb9, type: 3}
+  m_PrefabInstance: {fileID: 551592466}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &551600860 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 6392a159be733f44f8e17c1362ddfd61, type: 3}
@@ -16437,6 +16558,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &551600865
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16660,6 +16782,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &571490374
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16995,6 +17118,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &577534560
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17168,6 +17292,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &578037278
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17296,6 +17421,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &583429779
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17388,6 +17514,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &588809236
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17480,6 +17607,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &589490404
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17653,6 +17781,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &594840201
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17790,6 +17919,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &595085786
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18449,6 +18579,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &605524865
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18582,6 +18713,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &611069338
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18609,19 +18741,19 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1722894862}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 229660dab98a5814a85710662684db37, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 438.14072
+      value: 6.9366455
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 229660dab98a5814a85710662684db37, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.7157717
+      value: -8.98526
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 229660dab98a5814a85710662684db37, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 432.14096
+      value: 67.85028
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 229660dab98a5814a85710662684db37, type: 3}
       propertyPath: m_LocalRotation.w
@@ -18633,7 +18765,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 229660dab98a5814a85710662684db37, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 229660dab98a5814a85710662684db37, type: 3}
       propertyPath: m_LocalRotation.z
@@ -18660,6 +18792,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 229660dab98a5814a85710662684db37, type: 3}
+--- !u!4 &623744790 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 229660dab98a5814a85710662684db37, type: 3}
+  m_PrefabInstance: {fileID: 623744789}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &623823414
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19100,6 +19237,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &644772745
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19273,6 +19411,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &648373107
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19401,6 +19540,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &649571541
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19538,6 +19678,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &651445721
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19828,6 +19969,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &661202699
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20017,19 +20159,19 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1722894862}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: d778ab8a70e14dd418d9fc659901e15b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 461.68503
+      value: 30.480957
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d778ab8a70e14dd418d9fc659901e15b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.2971163
+      value: -3.4039154
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d778ab8a70e14dd418d9fc659901e15b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 457.79697
+      value: 93.50629
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d778ab8a70e14dd418d9fc659901e15b, type: 3}
       propertyPath: m_LocalRotation.w
@@ -20041,7 +20183,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d778ab8a70e14dd418d9fc659901e15b, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d778ab8a70e14dd418d9fc659901e15b, type: 3}
       propertyPath: m_LocalRotation.z
@@ -20068,6 +20210,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d778ab8a70e14dd418d9fc659901e15b, type: 3}
+--- !u!4 &668238551 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d778ab8a70e14dd418d9fc659901e15b, type: 3}
+  m_PrefabInstance: {fileID: 668238550}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &669581553
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20257,6 +20404,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &669603435
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20511,6 +20659,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &672884022
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20765,6 +20914,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &682087707
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20938,6 +21088,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &683904439
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21147,6 +21298,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &693928695
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21239,6 +21391,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &699187700
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21424,6 +21577,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &708679654
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21728,6 +21882,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &720582025
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21856,6 +22011,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &725937088
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21948,6 +22104,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &730458883
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22085,6 +22242,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &733945260
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22213,6 +22371,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &734411174
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22350,6 +22509,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &736731846
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22523,6 +22683,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &737440976
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22732,6 +22893,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &740304257
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22869,6 +23031,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &744598179
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22997,6 +23160,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &751482660
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23361,6 +23525,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &761443589
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23489,6 +23654,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &765409457
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23788,6 +23954,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &776291813
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23916,6 +24083,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &776979363
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24089,6 +24257,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &782990849
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24226,6 +24395,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &790611294
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24354,6 +24524,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &790903542
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24446,6 +24617,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &792138460
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24583,6 +24755,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &792159669
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24792,6 +24965,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &795313435
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24999,6 +25173,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &804414479
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25208,6 +25383,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &807837312
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25300,6 +25476,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &807877562
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25437,6 +25614,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &816576159
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25647,6 +25825,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &821957344
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25820,6 +25999,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &825646554
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25948,6 +26128,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &826137624
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26166,6 +26347,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &832810211
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26294,6 +26476,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &834893945
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26386,6 +26569,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &841970980
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26478,6 +26662,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &842902412
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26615,6 +26800,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &845577795
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26743,6 +26929,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &848293885
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26770,19 +26957,19 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1722894862}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: a2b772a0e729c8947903497ce449bdb9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 511.90738
+      value: 80.70331
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a2b772a0e729c8947903497ce449bdb9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 15.003812
+      value: 5.30278
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a2b772a0e729c8947903497ce449bdb9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 439.6084
+      value: 75.31772
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a2b772a0e729c8947903497ce449bdb9, type: 3}
       propertyPath: m_LocalRotation.w
@@ -26794,7 +26981,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a2b772a0e729c8947903497ce449bdb9, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a2b772a0e729c8947903497ce449bdb9, type: 3}
       propertyPath: m_LocalRotation.z
@@ -26821,6 +27008,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a2b772a0e729c8947903497ce449bdb9, type: 3}
+--- !u!4 &852038814 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: a2b772a0e729c8947903497ce449bdb9, type: 3}
+  m_PrefabInstance: {fileID: 852038813}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &858686092
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26937,6 +27129,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &858686098
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27070,6 +27263,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &862997459
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27207,6 +27401,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &866886233
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27335,6 +27530,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &871611265
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27497,6 +27693,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &879140340
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27634,6 +27831,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &883865020
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27762,6 +27960,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &888439607
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27899,6 +28098,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &889087921
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28107,6 +28307,98 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1286696903}
   m_SourcePrefab: {fileID: 100100000, guid: 6392a159be733f44f8e17c1362ddfd61, type: 3}
+--- !u!1001 &912834072
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 6392a159be733f44f8e17c1362ddfd61, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1787.7509
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6392a159be733f44f8e17c1362ddfd61, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1787.7498
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6392a159be733f44f8e17c1362ddfd61, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 636.2099
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6392a159be733f44f8e17c1362ddfd61, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 414.25
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6392a159be733f44f8e17c1362ddfd61, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 18.37
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6392a159be733f44f8e17c1362ddfd61, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 382.81
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6392a159be733f44f8e17c1362ddfd61, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.082190454
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6392a159be733f44f8e17c1362ddfd61, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.9966167
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6392a159be733f44f8e17c1362ddfd61, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6392a159be733f44f8e17c1362ddfd61, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6392a159be733f44f8e17c1362ddfd61, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -170.571
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6392a159be733f44f8e17c1362ddfd61, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6392a159be733f44f8e17c1362ddfd61, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6392a159be733f44f8e17c1362ddfd61, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 3799169206553b2489bd956038494521, type: 2}
+    - target: {fileID: 919132149155446097, guid: 6392a159be733f44f8e17c1362ddfd61, type: 3}
+      propertyPath: m_Name
+      value: GestionnairePlateforme
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6392a159be733f44f8e17c1362ddfd61, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 6392a159be733f44f8e17c1362ddfd61, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1163195639}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 6392a159be733f44f8e17c1362ddfd61, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1163195638}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 6392a159be733f44f8e17c1362ddfd61, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1163195637}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 6392a159be733f44f8e17c1362ddfd61, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1163195636}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 6392a159be733f44f8e17c1362ddfd61, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1163195635}
+  m_SourcePrefab: {fileID: 100100000, guid: 6392a159be733f44f8e17c1362ddfd61, type: 3}
 --- !u!1 &914430894 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 6392a159be733f44f8e17c1362ddfd61, type: 3}
@@ -28178,6 +28470,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &914430899
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28351,6 +28644,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &918839282
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28488,6 +28782,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &920632426
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28759,6 +29054,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &950180221
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28887,6 +29183,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &950842646
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29024,6 +29321,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &952391463
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29152,6 +29450,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &958647749
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29325,6 +29624,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &962460669
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29433,7 +29733,7 @@ Transform:
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
   m_LocalRotation: {x: 0.26012385, y: 0.020125272, z: -0.0056794207, w: 0.96534884}
-  m_LocalPosition: {x: 421.4, y: 13.8, z: 352.3}
+  m_LocalPosition: {x: 417.9001, y: 3.3595304, z: 352.64963}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -29455,7 +29755,7 @@ MonoBehaviour:
   AjustementFocus: {x: 0, y: 0.6, z: 0}
   distanceCamProche: {x: 0, y: 1.7, z: -2.25}
   distanceCamEloigne: {x: 0, y: 2.8, z: -3.2}
-  Amortissement: 1
+  Amortissement: 0.5
 --- !u!1001 &964852853
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29896,6 +30196,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &976810178
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -30069,6 +30370,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &979428970
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -30197,6 +30499,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &981470070
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -30329,6 +30632,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1791541669}
+  - {fileID: 1722894862}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &986144805
@@ -30528,6 +30832,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &987325776
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -30656,6 +30961,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &988156488
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -30748,6 +31054,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &988913725
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -30885,6 +31192,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &990145687
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -31013,6 +31321,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &990884642
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -31105,6 +31414,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &993459344
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -31197,6 +31507,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &993821920
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -31339,6 +31650,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1010463894
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -31512,6 +31824,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1010518202
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -31755,6 +32068,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1016645776
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32045,6 +32359,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1023929487
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32137,6 +32452,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1024082175
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32278,6 +32594,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1025108084
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32406,6 +32723,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1026229941
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32579,6 +32897,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1027602932
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32671,6 +32990,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1029535775
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32763,6 +33083,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1031805269
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32855,6 +33176,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1031898603
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32992,6 +33314,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1033842705
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -33165,6 +33488,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1035787674
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -33338,6 +33662,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1042095831
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -33511,6 +33836,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1044648599
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -33639,6 +33965,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1045536651
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -33731,6 +34058,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1046113602
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -33868,6 +34196,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1049394889
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34041,6 +34370,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1049504843
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34169,6 +34499,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1054245900
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34460,6 +34791,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1058699455
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34714,6 +35046,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1068349410
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34923,6 +35256,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1075517075
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -35060,6 +35394,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1075677828
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -35233,6 +35568,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1078493022
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -35476,6 +35812,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1079164958
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -35604,6 +35941,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1080888802
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -35840,6 +36178,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1094047270
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -35932,6 +36271,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1095986782
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -36024,6 +36364,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1102222915
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -36323,6 +36664,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1109646511
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -36451,6 +36793,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1109755931
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -36543,6 +36886,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1111145086
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -36680,6 +37024,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1111559787
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37051,6 +37396,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1124519586
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37143,6 +37489,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1130950697
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37520,6 +37867,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1142841277
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37648,6 +37996,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1142914610
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37866,6 +38215,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1148360182
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37994,6 +38344,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1148843434
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -38131,6 +38482,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1159432132
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -38259,6 +38611,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1162135055
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -38280,6 +38633,106 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.00786743, y: 0.007867429, z: 0.003522408}
   m_Center: {x: 0, y: 1.7030801e-19, z: 0.000047937436}
+--- !u!1 &1163195634 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 6392a159be733f44f8e17c1362ddfd61, type: 3}
+  m_PrefabInstance: {fileID: 912834072}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1163195635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1163195634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dca74ddcbf31f44786d43152da9ec5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!95 &1163195636
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1163195634}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3854f7d8070d2b144a94be03e4163d94, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1163195637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1163195634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b78109e60dc91c242859d44d0b80091d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minuteurRound: 0
+  kayaPersonnage: {fileID: 1595505738}
+--- !u!114 &1163195638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1163195634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39a63f1a90461ce4788875c39d2520ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rangeCouleurPlatforme:
+  - {fileID: 2100000, guid: 3799169206553b2489bd956038494521, type: 2}
+  - {fileID: 2100000, guid: 4a066fe93ffcb614eb4d1d570e0f00d1, type: 2}
+  - {fileID: 2100000, guid: e872b75d286bba94ab7aa0838b5cc286, type: 2}
+  - {fileID: 2100000, guid: 2e66b105a20580b48a3e16b60602d5d8, type: 2}
+  - {fileID: 2100000, guid: 28a108330404d7c4792aa7a4bc1253bc, type: 2}
+  - {fileID: 2100000, guid: 12b993b5b3396d549bf7192af2241af4, type: 2}
+  - {fileID: 2100000, guid: bc0f56eb45b7bd84d863304233ff418f, type: 2}
+  - {fileID: 2100000, guid: 8b684b61f92448a4eb6ef688a0b6167a, type: 2}
+  - {fileID: 2100000, guid: 987c5c99bbc4b2f458f0c22483926ba6, type: 2}
+  - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
+  - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
+  choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
+--- !u!65 &1163195639
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1163195634}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.00786743, y: 0.007867429, z: 0.003522408}
+  m_Center: {x: -0.000000007450581, y: 1.7030801e-19, z: 0.000047937425}
 --- !u!1 &1166914166 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 6392a159be733f44f8e17c1362ddfd61, type: 3}
@@ -38351,6 +38804,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1166914171
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -38605,6 +39059,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1171038686
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -38742,6 +39197,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1171598796
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -38996,6 +39452,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1192140586
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -39124,6 +39581,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1192520478
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -39216,6 +39674,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1194465748
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -39353,6 +39812,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1203009740
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -39526,6 +39986,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1203122536
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -39861,6 +40322,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1211176314
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -40070,6 +40532,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1217295194
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -40288,6 +40751,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1222377900
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -40704,6 +41168,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1233138351
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -40913,6 +41378,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1239577369
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -41086,6 +41552,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1244608770
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -41178,6 +41645,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1249216000
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -41396,6 +41864,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1251391783
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -41524,6 +41993,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1252232151
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -41661,6 +42131,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1254103376
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -41789,6 +42260,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1256730237
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -41816,19 +42288,19 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1722894862}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: a2b772a0e729c8947903497ce449bdb9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 324.4334
+      value: -106.77066
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a2b772a0e729c8947903497ce449bdb9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 14.16843
+      value: 4.4673986
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a2b772a0e729c8947903497ce449bdb9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 487.74258
+      value: 123.451904
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a2b772a0e729c8947903497ce449bdb9, type: 3}
       propertyPath: m_LocalRotation.w
@@ -41840,7 +42312,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a2b772a0e729c8947903497ce449bdb9, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a2b772a0e729c8947903497ce449bdb9, type: 3}
       propertyPath: m_LocalRotation.z
@@ -41867,6 +42339,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a2b772a0e729c8947903497ce449bdb9, type: 3}
+--- !u!4 &1263399190 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: a2b772a0e729c8947903497ce449bdb9, type: 3}
+  m_PrefabInstance: {fileID: 1263399189}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1263885468
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -42019,6 +42496,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1273981477
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -42237,6 +42715,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1277297586
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -42410,6 +42889,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1277903286
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -42583,6 +43063,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1280593461
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -42756,6 +43237,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1281562883
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -42929,6 +43411,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1283749015
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -43057,6 +43540,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1286696906
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -43194,6 +43678,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1287470216
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -43338,19 +43823,19 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1722894862}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: fb3fc1a1a5e82e448ae1b15c356c4c7b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 329.7819
+      value: -101.42218
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fb3fc1a1a5e82e448ae1b15c356c4c7b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7.120696
+      value: -2.5803356
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fb3fc1a1a5e82e448ae1b15c356c4c7b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 353.1571
+      value: -11.133575
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fb3fc1a1a5e82e448ae1b15c356c4c7b, type: 3}
       propertyPath: m_LocalRotation.w
@@ -43362,7 +43847,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fb3fc1a1a5e82e448ae1b15c356c4c7b, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fb3fc1a1a5e82e448ae1b15c356c4c7b, type: 3}
       propertyPath: m_LocalRotation.z
@@ -43389,6 +43874,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fb3fc1a1a5e82e448ae1b15c356c4c7b, type: 3}
+--- !u!4 &1299612001 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: fb3fc1a1a5e82e448ae1b15c356c4c7b, type: 3}
+  m_PrefabInstance: {fileID: 1299612000}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1301813758
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43586,6 +44076,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1318240186
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -43759,6 +44250,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1318822888
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -44013,6 +44505,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1321906811
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -44303,6 +44796,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1330426244
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -44764,6 +45258,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1339585910
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -44892,6 +45387,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1342459509
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -45227,6 +45723,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1358968686
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -45445,6 +45942,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1363274246
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -45573,6 +46071,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1370988846
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -45665,6 +46164,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1375332982
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -45692,19 +46192,19 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1722894862}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: d778ab8a70e14dd418d9fc659901e15b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 308.1634
+      value: -123.04068
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d778ab8a70e14dd418d9fc659901e15b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 13.490815
+      value: 3.7897835
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d778ab8a70e14dd418d9fc659901e15b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 427.08615
+      value: 62.79547
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d778ab8a70e14dd418d9fc659901e15b, type: 3}
       propertyPath: m_LocalRotation.w
@@ -45716,7 +46216,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d778ab8a70e14dd418d9fc659901e15b, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d778ab8a70e14dd418d9fc659901e15b, type: 3}
       propertyPath: m_LocalRotation.z
@@ -45743,6 +46243,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d778ab8a70e14dd418d9fc659901e15b, type: 3}
+--- !u!4 &1379199097 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d778ab8a70e14dd418d9fc659901e15b, type: 3}
+  m_PrefabInstance: {fileID: 1379199096}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1381401705 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 6392a159be733f44f8e17c1362ddfd61, type: 3}
@@ -45814,6 +46319,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1381401710
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -45987,6 +46493,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1382767079
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -46124,6 +46631,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1384116718
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -46297,6 +46805,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1384709346
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -46470,6 +46979,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1385230152
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -46679,6 +47189,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1404374178
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -47014,6 +47525,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1413060237
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -47106,6 +47618,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1413618580
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -47198,6 +47711,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1425029858
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -47376,19 +47890,19 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1722894862}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: fb3fc1a1a5e82e448ae1b15c356c4c7b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 412.96912
+      value: -18.234955
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fb3fc1a1a5e82e448ae1b15c356c4c7b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.5976207
+      value: -9.103411
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fb3fc1a1a5e82e448ae1b15c356c4c7b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 331.13565
+      value: -33.15503
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fb3fc1a1a5e82e448ae1b15c356c4c7b, type: 3}
       propertyPath: m_LocalRotation.w
@@ -47400,7 +47914,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fb3fc1a1a5e82e448ae1b15c356c4c7b, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fb3fc1a1a5e82e448ae1b15c356c4c7b, type: 3}
       propertyPath: m_LocalRotation.z
@@ -47427,6 +47941,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fb3fc1a1a5e82e448ae1b15c356c4c7b, type: 3}
+--- !u!4 &1434464380 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: fb3fc1a1a5e82e448ae1b15c356c4c7b, type: 3}
+  m_PrefabInstance: {fileID: 1434464379}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1438856688
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -47616,6 +48135,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1441046642
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -47906,6 +48426,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1444922588
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -47998,6 +48519,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1446322655
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -48090,6 +48612,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1446939571
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -48227,6 +48750,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1450200707
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -48635,6 +49159,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1470850207
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -49132,6 +49657,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1490000430
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -49305,6 +49831,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1501041457
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -49433,6 +49960,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1503696464
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -49525,6 +50053,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1504329412
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -49743,6 +50272,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1508195112
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -49916,6 +50446,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1508739553
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -50089,6 +50620,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1509867270
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -50262,6 +50794,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1514121984
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -50471,6 +51004,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1521660266
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -50770,6 +51304,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1531260645
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -51060,6 +51595,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1535378958
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -51152,6 +51688,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1539049803
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -51325,6 +51862,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1544678062
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -51543,6 +52081,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1560036957
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -51797,6 +52336,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1561424483
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -51970,6 +52510,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1566247048
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -52143,6 +52684,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1570569651
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -52316,6 +52858,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1571088872
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -52570,6 +53113,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1577809524
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -52743,6 +53287,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1585061962
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -52916,6 +53461,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1588927003
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -53089,6 +53635,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1589241030
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -53217,6 +53764,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1591393827
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -53354,6 +53902,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1592687160
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -53577,6 +54126,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1597034007
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -53750,6 +54300,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1601573061
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -53923,6 +54474,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1604969196
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -54051,6 +54603,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1611371334
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -54258,6 +54811,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1618930597
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -54548,6 +55102,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1634772016
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -54575,19 +55130,19 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1722894862}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: fb3fc1a1a5e82e448ae1b15c356c4c7b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 406.65646
+      value: -24.547607
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fb3fc1a1a5e82e448ae1b15c356c4c7b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.5634073
+      value: -9.137625
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fb3fc1a1a5e82e448ae1b15c356c4c7b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 329.55106
+      value: -34.739624
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fb3fc1a1a5e82e448ae1b15c356c4c7b, type: 3}
       propertyPath: m_LocalRotation.w
@@ -54599,7 +55154,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fb3fc1a1a5e82e448ae1b15c356c4c7b, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fb3fc1a1a5e82e448ae1b15c356c4c7b, type: 3}
       propertyPath: m_LocalRotation.z
@@ -54626,6 +55181,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fb3fc1a1a5e82e448ae1b15c356c4c7b, type: 3}
+--- !u!4 &1639291567 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: fb3fc1a1a5e82e448ae1b15c356c4c7b, type: 3}
+  m_PrefabInstance: {fileID: 1639291566}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1639678743
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -54742,6 +55302,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1639678749
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -54870,6 +55431,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1645754683
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -55007,6 +55569,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1661490799
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -55216,6 +55779,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1668196564
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -55308,6 +55872,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1670426486
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -55526,6 +56091,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1679202833
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -55654,6 +56220,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1680429732
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -55876,6 +56443,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1704379308
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -56020,19 +56588,19 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1722894862}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: d778ab8a70e14dd418d9fc659901e15b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 472.07187
+      value: 40.867798
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d778ab8a70e14dd418d9fc659901e15b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7.0968013
+      value: -2.6042304
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d778ab8a70e14dd418d9fc659901e15b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 305.00998
+      value: -59.2807
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d778ab8a70e14dd418d9fc659901e15b, type: 3}
       propertyPath: m_LocalRotation.w
@@ -56044,7 +56612,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d778ab8a70e14dd418d9fc659901e15b, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d778ab8a70e14dd418d9fc659901e15b, type: 3}
       propertyPath: m_LocalRotation.z
@@ -56071,6 +56639,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d778ab8a70e14dd418d9fc659901e15b, type: 3}
+--- !u!4 &1711378564 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d778ab8a70e14dd418d9fc659901e15b, type: 3}
+  m_PrefabInstance: {fileID: 1711378563}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1713271017
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -56268,6 +56841,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1715138647
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -57737,6 +58311,56 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1933080605}
   m_SourcePrefab: {fileID: 100100000, guid: 6392a159be733f44f8e17c1362ddfd61, type: 3}
+--- !u!1 &1722894861
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1722894862}
+  m_Layer: 0
+  m_Name: props
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1722894862
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1722894861}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 623744790}
+  - {fileID: 1977502497}
+  - {fileID: 2025713602}
+  - {fileID: 2080112731}
+  - {fileID: 1711378564}
+  - {fileID: 319020468}
+  - {fileID: 668238551}
+  - {fileID: 63161462}
+  - {fileID: 1379199097}
+  - {fileID: 551592467}
+  - {fileID: 852038814}
+  - {fileID: 1263399190}
+  - {fileID: 328696380}
+  - {fileID: 421618526}
+  - {fileID: 1299612001}
+  - {fileID: 5966640}
+  - {fileID: 1867300381}
+  - {fileID: 1434464380}
+  - {fileID: 1639291567}
+  m_Father: {fileID: 982414771}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1725566707
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -57970,6 +58594,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1731076264
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -58107,6 +58732,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1732441446
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -58280,6 +58906,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1733460227
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -58489,6 +59116,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1739995832
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -58623,6 +59251,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1741618237
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -58760,6 +59389,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1749111615
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -58888,6 +59518,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1752312468
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -58980,6 +59611,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1768862303
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -59117,6 +59749,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1769478325
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -59290,6 +59923,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1780695606
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -59463,6 +60097,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1782521137
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -59591,6 +60226,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1783749942
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -59728,6 +60364,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1784399449
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -59901,6 +60538,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1790558452
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -60570,6 +61208,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1796681163
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -60698,6 +61337,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1801383581
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -60921,6 +61561,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1808050142
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -61167,6 +61808,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1809708074
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -61295,6 +61937,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1816977665
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -61387,6 +62030,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1828911344
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -61560,6 +62204,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1834983204
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -61652,6 +62297,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1835341787
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -61789,6 +62435,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1836607196
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -61962,6 +62609,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1837099884
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -62090,6 +62738,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1838194490
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -62333,6 +62982,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1842802371
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -62470,6 +63120,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1849421518
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -62724,6 +63375,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1858696942
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -62852,6 +63504,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1860017741
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -62960,19 +63613,19 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1722894862}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: fb3fc1a1a5e82e448ae1b15c356c4c7b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 295.61234
+      value: -135.59174
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fb3fc1a1a5e82e448ae1b15c356c4c7b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 12.39266
+      value: 2.6916285
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fb3fc1a1a5e82e448ae1b15c356c4c7b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 374.93207
+      value: 10.641388
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fb3fc1a1a5e82e448ae1b15c356c4c7b, type: 3}
       propertyPath: m_LocalRotation.w
@@ -62984,7 +63637,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fb3fc1a1a5e82e448ae1b15c356c4c7b, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fb3fc1a1a5e82e448ae1b15c356c4c7b, type: 3}
       propertyPath: m_LocalRotation.z
@@ -63011,6 +63664,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fb3fc1a1a5e82e448ae1b15c356c4c7b, type: 3}
+--- !u!4 &1867300381 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: fb3fc1a1a5e82e448ae1b15c356c4c7b, type: 3}
+  m_PrefabInstance: {fileID: 1867300380}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1870562740
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -63127,6 +63785,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1870562746
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -63300,6 +63959,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1873118641
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -63428,6 +64088,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1878350895
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -63520,6 +64181,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1880592067
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -63657,6 +64319,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1881189225
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -63785,6 +64448,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1882932592
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -63877,6 +64541,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1887454288
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -64095,6 +64760,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1896300989
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -64268,6 +64934,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1900460054
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -64522,6 +65189,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1908079318
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -64650,6 +65318,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1913510963
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -65103,6 +65772,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1929928272
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -65231,6 +65901,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1931734166
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -65323,6 +65994,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1933080608
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -65460,6 +66132,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1940018026
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -65633,6 +66306,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1944802490
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -65887,6 +66561,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1950653652
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -66211,6 +66886,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1957648568
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -66384,6 +67060,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1958629790
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -66557,6 +67234,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1960232607
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -66730,6 +67408,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1963647153
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -66939,6 +67618,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1971520555
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -66966,19 +67646,19 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1722894862}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 229660dab98a5814a85710662684db37, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 343.32678
+      value: -87.87729
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 229660dab98a5814a85710662684db37, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.567627
+      value: -4.1334047
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 229660dab98a5814a85710662684db37, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 406.27295
+      value: 41.98227
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 229660dab98a5814a85710662684db37, type: 3}
       propertyPath: m_LocalRotation.w
@@ -66990,7 +67670,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 229660dab98a5814a85710662684db37, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 229660dab98a5814a85710662684db37, type: 3}
       propertyPath: m_LocalRotation.z
@@ -67017,6 +67697,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 229660dab98a5814a85710662684db37, type: 3}
+--- !u!4 &1977502497 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 229660dab98a5814a85710662684db37, type: 3}
+  m_PrefabInstance: {fileID: 1977502496}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1980577760
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -67214,6 +67899,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1983404607
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -67423,6 +68109,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &1999288524
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -67560,6 +68247,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &2001182682
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -67814,6 +68502,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &2010020046
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -67987,6 +68676,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &2017009275
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -68115,6 +68805,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &2017164572
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -68223,19 +68914,19 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1722894862}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: d778ab8a70e14dd418d9fc659901e15b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 401.0943
+      value: -30.109772
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d778ab8a70e14dd418d9fc659901e15b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7.9146304
+      value: -1.7864013
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d778ab8a70e14dd418d9fc659901e15b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 449.48944
+      value: 85.19876
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d778ab8a70e14dd418d9fc659901e15b, type: 3}
       propertyPath: m_LocalRotation.w
@@ -68247,7 +68938,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d778ab8a70e14dd418d9fc659901e15b, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d778ab8a70e14dd418d9fc659901e15b, type: 3}
       propertyPath: m_LocalRotation.z
@@ -68274,6 +68965,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d778ab8a70e14dd418d9fc659901e15b, type: 3}
+--- !u!4 &2025713602 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d778ab8a70e14dd418d9fc659901e15b, type: 3}
+  m_PrefabInstance: {fileID: 2025713601}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2029620870
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -68390,6 +69086,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &2029620876
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -68518,6 +69215,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &2030229029
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -68772,6 +69470,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &2045483533
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -68909,6 +69608,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &2046994975
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -69163,6 +69863,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &2053083334
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -69539,6 +70240,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &2077666294
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -69757,6 +70459,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &2079256635
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -69820,19 +70523,19 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1722894862}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: d778ab8a70e14dd418d9fc659901e15b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 479.9891
+      value: 48.785034
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d778ab8a70e14dd418d9fc659901e15b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.3293817
+      value: -10.030414
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d778ab8a70e14dd418d9fc659901e15b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 383.6175
+      value: 19.326813
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d778ab8a70e14dd418d9fc659901e15b, type: 3}
       propertyPath: m_LocalRotation.w
@@ -69844,7 +70547,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d778ab8a70e14dd418d9fc659901e15b, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d778ab8a70e14dd418d9fc659901e15b, type: 3}
       propertyPath: m_LocalRotation.z
@@ -69871,6 +70574,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d778ab8a70e14dd418d9fc659901e15b, type: 3}
+--- !u!4 &2080112731 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d778ab8a70e14dd418d9fc659901e15b, type: 3}
+  m_PrefabInstance: {fileID: 2080112730}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2084421174 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 6392a159be733f44f8e17c1362ddfd61, type: 3}
@@ -69942,6 +70650,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &2084421179
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -70034,6 +70743,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &2088156642
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -70126,6 +70836,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &2091242343
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -70263,6 +70974,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &2093435356
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -70436,6 +71148,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &2101146501
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -70609,6 +71322,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &2101703683
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -70737,6 +71451,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &2102934083
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -70874,6 +71589,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &2103070930
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -71164,6 +71880,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &2114024996
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -71256,6 +71973,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &2118966622
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -71348,6 +72066,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &2122882338
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -71440,6 +72159,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &2132123020
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -71577,6 +72297,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &2141240173
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -71705,6 +72426,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01e899d9f7b22004195fdfcbf8189694, type: 2}
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
+  gestionnaireDeCouleurTour: {fileID: 1163195634}
 --- !u!65 &2144003771
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -71822,22 +72544,4 @@ SceneRoots:
   - {fileID: 817401572}
   - {fileID: 198447995}
   - {fileID: 167569744}
-  - {fileID: 623744789}
-  - {fileID: 1977502496}
-  - {fileID: 2025713601}
-  - {fileID: 2080112730}
-  - {fileID: 1711378563}
-  - {fileID: 319020467}
-  - {fileID: 668238550}
-  - {fileID: 63161461}
-  - {fileID: 1379199096}
-  - {fileID: 551592466}
-  - {fileID: 852038813}
-  - {fileID: 1263399189}
-  - {fileID: 328696379}
-  - {fileID: 421618525}
-  - {fileID: 1299612000}
-  - {fileID: 5966639}
-  - {fileID: 1867300380}
-  - {fileID: 1434464379}
-  - {fileID: 1639291566}
+  - {fileID: 912834072}

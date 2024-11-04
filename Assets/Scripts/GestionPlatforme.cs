@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class GestionPlatforme : MonoBehaviour
 {
-    public Material[] rangeCouleurPlatforme;  //Tableau de matériaux pour la couleur des plateformes
-    int couleurChoisie;  //Variable pour déterminer la couleur choisie
-    public int choixCouleurRange; //Variable pour définir la position maximale dans le tableau de materiaux duquel le choix peut se faire
+    public Material[] rangeCouleurPlatforme;  //Tableau de matï¿½riaux pour la couleur des plateformes
+    int couleurChoisie;  //Variable pour dï¿½terminer la couleur choisie
+    public int choixCouleurRange; //Variable pour dï¿½finir la position maximale dans le tableau de materiaux duquel le choix peut se faire
+
+    public GameObject gestionnaireDeCouleurTour;
 
     private void Update()
     {
@@ -18,5 +20,11 @@ public class GestionPlatforme : MonoBehaviour
         //Important de convertir car sinon une valeur en float ne peut pas etre mis en tant qu'index 
         couleurChoisie = (int)Mathf.Round(Random.Range(1f, choixCouleurRange));
         GetComponent<Renderer>().material = rangeCouleurPlatforme[couleurChoisie];
+
+        if(couleurChoisie != gestionnaireDeCouleurTour.GetComponent<GestionPlatforme>().couleurChoisie){
+            GetComponent<Animator>().SetBool("disparaitre", true);
+        }
     }
+
+    
 }

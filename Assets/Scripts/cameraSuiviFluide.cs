@@ -1,8 +1,8 @@
-/* Fonctionnement et utilité générale du script
-   Gestion de la caméra qui fait un suivi fluide (avec un amortissement du mouvement) 
+/* Fonctionnement et utilitï¿½ gï¿½nï¿½rale du script
+   Gestion de la camï¿½ra qui fait un suivi fluide (avec un amortissement du mouvement) 
     de Kaya en Third Person Perspective
-   Par : Malaïka Abevi
-   Dernière modification : 29/10/2024
+   Par : Malaï¿½ka Abevi
+   Derniï¿½re modification : 29/10/2024
 */
 using System.Collections;
 using System.Collections.Generic;
@@ -20,24 +20,24 @@ public class cameraSuiviFluide : MonoBehaviour
     public float Amortissement;
     void Start()
     {
-        // Par défaut, la caméra est proche du joueur
-        // Distance = Vector3.Lerp(Distance, distanceCamProche, Amortissement);
-        Distance = ChangementCam(distanceCamProche);
+        // Par dï¿½faut, la camï¿½ra est proche du joueur
+        //Appel de la fonction pour le changement de distance de la camÃ©ra
+        ChangementCam(distanceCamProche);
     }
 
     void Update()
     {
-        //Changement de la distance de la caméra si la touche 1 est appuyée (rapprochement)
-        if (Input.GetKey(KeyCode.Alpha1))
+        //Changement de la distance de la camï¿½ra si la touche 1 est appuyï¿½e (rapprochement)
+        if (Input.GetKeyDown(KeyCode.Alpha1))
         {
             Start();
         }
 
-        //Changement de la distance de la caméra si la touche 2 est appuyée (éloignement)
-        if (Input.GetKey(KeyCode.Alpha2))
+        //Changement de la distance de la camï¿½ra si la touche 2 est appuyï¿½e (ï¿½loignement)
+        if (Input.GetKeyDown(KeyCode.Alpha2))
         {
-            
-            Distance = ChangementCam(distanceCamEloigne);
+            //Appel de la fonction pour le changement de distance de la camÃ©ra
+            ChangementCam(distanceCamEloigne);
         }
 
         
@@ -48,15 +48,14 @@ public class cameraSuiviFluide : MonoBehaviour
 
         Vector3 PositionFinale = Cible.transform.TransformPoint(Distance);
         transform.position = Vector3.Lerp(transform.position, PositionFinale, Amortissement);
-
-
         transform.LookAt(Cible.transform.position + AjustementFocus);
-        print(Distance);
     }
 
-    Vector3 ChangementCam(Vector3 uneCam)
-    {
-        Vector3 laDistanceCam = Vector3.Lerp(Distance, uneCam, Amortissement);
-        return laDistanceCam;
+    //Fontion pour le changement de distance de la camÃ©ra, un vector3 est demandÃ© pour avoir un point d'arrivÃ© dÃ©sirÃ©
+    void ChangementCam(Vector3 unDistanceCam){
+        //Tant que la camÃ©ra n'a pas atteint la distance dÃ©sirÃ©e par rapport au personnage, le rapprochement/Ã©loignement s'Ã©ffectue
+        while(Distance != unDistanceCam){
+            Distance =  Vector3.Lerp(Distance, unDistanceCam, Amortissement); //Possiblement mettre dans une fonction !
+        }
     }
 }

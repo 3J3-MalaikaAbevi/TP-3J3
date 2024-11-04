@@ -19,7 +19,7 @@ public class GestionTourPlateforme : MonoBehaviour
  
     {
         minuteurRound = 10f;
-        // Tour Essaie ---------------------------------------------------------------------
+        // *******************************************************************************Tour Essaie --------
         yield return new WaitForSeconds(minuteurRound); // Une pause est marqu�e
         GetComponent<GestionPlatforme>().ChangerCouleurPlateforme(); //Appel de la fonction pour le changement de couleur
 
@@ -27,7 +27,7 @@ public class GestionTourPlateforme : MonoBehaviour
         repetitionRound = 2;  //Assignation du nombre de s�quence du prochain round
 
 
-        // Tour 1---- 2 couleurs/15 secondes -----------------------------------------------------------------------
+        // *******************************************************************************Tour 1---- 2 couleurs/15 secondes ---------
         //Tant que la r�petition n'est pas � z�ro, alors ce code s'execute
         while (repetitionRound != 0)
         {
@@ -41,7 +41,7 @@ public class GestionTourPlateforme : MonoBehaviour
         GetComponent<GestionPlatforme>().choixCouleurRange += 1;
 
 
-        // Tour 2---- 3 couleurs/15 secondes ----------------------------------------------------------------------
+        // *******************************************************************************Tour 2---- 3 couleurs/15 secondes --------
         //Tant que la r�petition n'est pas � z�ro, alors ce code s'execute
         while (repetitionRound != 0)
         {
@@ -55,7 +55,7 @@ public class GestionTourPlateforme : MonoBehaviour
         GetComponent<GestionPlatforme>().choixCouleurRange += 1;
         yield return new WaitForSeconds(5); // Transition entre les rounds
 
-        // Tour 3---- 4 couleurs/15 secondes -----------------------------------------------------------------------
+        // *******************************************************************************Tour 3---- 4 couleurs/15 secondes ---------
         //Tant que la r�petition n'est pas � z�ro, alors ce code s'execute
         while (repetitionRound != 0)
         {
@@ -69,7 +69,7 @@ public class GestionTourPlateforme : MonoBehaviour
         GetComponent<GestionPlatforme>().choixCouleurRange += 1;
         yield return new WaitForSeconds(5); // Transition entre les rounds
 
-        // Tour 4---- 5 couleurs/12 secondes -----------------------------------------------------------------------
+        // *******************************************************************************Tour 4---- 5 couleurs/12 secondes ---------
         //Tant que la r�petition n'est pas � z�ro, alors ce code s'execute
         while (repetitionRound != 0)
         {
@@ -83,7 +83,7 @@ public class GestionTourPlateforme : MonoBehaviour
         GetComponent<GestionPlatforme>().choixCouleurRange += 1;
         yield return new WaitForSeconds(5); // Transition entre les rounds
 
-        // Tour 5---- 6 couleurs/12 secondes -----------------------------------------------------------------------
+        // *******************************************************************************Tour 5---- 6 couleurs/12 secondes ---------
         //Tant que la r�petition n'est pas � z�ro, alors ce code s'execute
         while (repetitionRound != 0)
         {
@@ -97,7 +97,7 @@ public class GestionTourPlateforme : MonoBehaviour
         GetComponent<GestionPlatforme>().choixCouleurRange += 1;
         yield return new WaitForSeconds(5); // Transition entre les rounds
 
-        // Tour 6---- 7 couleurs/10 secondes -----------------------------------------------------------------------
+        // *******************************************************************************Tour 6---- 7 couleurs/10 secondes ---------
         //Tant que la r�petition n'est pas � z�ro, alors ce code s'execute
         while (repetitionRound != 0)
         {
@@ -111,7 +111,7 @@ public class GestionTourPlateforme : MonoBehaviour
         GetComponent<GestionPlatforme>().choixCouleurRange += 1;
         yield return new WaitForSeconds(5); // Transition entre les rounds
 
-        // Tour 7---- 8 couleurs/10 secondes -----------------------------------------------------------------------
+        // *******************************************************************************Tour 7---- 8 couleurs/10 secondes ---------
         //Tant que la r�petition n'est pas � z�ro, alors ce code s'execute
         while (repetitionRound != 0)
         {
@@ -125,7 +125,7 @@ public class GestionTourPlateforme : MonoBehaviour
         GetComponent<GestionPlatforme>().choixCouleurRange += 1;
         yield return new WaitForSeconds(5); // Transition entre les rounds
 
-        // Tour 8---- 9 couleurs/8 secondes -----------------------------------------------------------------------
+        // *******************************************************************************Tour 8---- 9 couleurs/8 secondes ---------
         //Tant que la r�petition n'est pas � z�ro, alors ce code s'execute
         while (repetitionRound != 0)
         {
@@ -139,7 +139,7 @@ public class GestionTourPlateforme : MonoBehaviour
         GetComponent<GestionPlatforme>().choixCouleurRange += 1;
         yield return new WaitForSeconds(5); // Transition entre les rounds
 
-        // Tour 9---- 10 couleurs/8 secondes -----------------------------------------------------------------------
+        // *******************************************************************************Tour 9---- 10 couleurs/8 secondes ---------
         //Tant que la r�petition n'est pas � z�ro, alors ce code s'execute
         while (repetitionRound != 0)
         {
@@ -156,7 +156,7 @@ public class GestionTourPlateforme : MonoBehaviour
         GetComponent<GestionPlatforme>().choixCouleurRange += 1;
         yield return new WaitForSeconds(5); // Transition entre les rounds
 
-        // Tour 10 ++ ---- 10 couleurs/ 6 secondes -----------------------------------------------------------------------
+        // *******************************************************************************Tour 10 ++ ---- 10 couleurs/ 6 secondes ---------
         //Tant que la r�petition n'est pas � z�ro, alors ce code s'execute
         //Le code se r�pete jusqu'� ce que le joueur perd la partie (in�vitable car trop dure)
         while (!kayaPersonnage.GetComponent<ControleKalya>().finPartie)
