@@ -10,7 +10,7 @@ public class GestionPlatforme : MonoBehaviour
 
     private void Update()
     {
-        print(choixCouleurRange);
+        //print(choixCouleurRange);
     }
 
     public void ChangerCouleurPlateforme(){
