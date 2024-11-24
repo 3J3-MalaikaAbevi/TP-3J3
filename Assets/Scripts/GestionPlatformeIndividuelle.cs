@@ -16,18 +16,12 @@ public class GestionPlatformeIndividuelle : MonoBehaviour
 
     public GameObject gestionnaireDeCouleurTour; //Référence au GameObject du gestionnaire de couleur/tour
 
-    void Start()
-    {
-        //ChangerCouleurPlateforme();
-    }
 
     public void ChangerCouleurPlateforme(){
         //On choisit la couleur de la plateforme au hasard et on convertit en integer (int)
         //Important de convertir car sinon une valeur en float ne peut pas etre mis en tant qu'index 
         couleurChoisie = (int)Mathf.Round(Random.Range(1f, choixCouleurRange));
         GetComponent<Renderer>().material = rangeCouleurPlatforme[couleurChoisie];
-
-
     }
 
     public void EliminationPlateforme()

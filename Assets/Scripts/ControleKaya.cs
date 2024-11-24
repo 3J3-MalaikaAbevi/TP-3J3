@@ -19,7 +19,7 @@ public class ControleKaya : MonoBehaviour
     public float forceDuSaut; // hauteur du saut
     public float gravite; // force de la gravité
 
-    float velocitePersoY;  //Variable pour la vélocité du joueur en hauteur (saut)
+    public float velocitePersoY;  //Variable pour la vélocité du joueur en hauteur (saut)
 
     bool toucheSaut;   //Variable pour savoir si le joueur a sauter ou non
     bool finPartie;     //Variable pour savoir si la partie est finie ou non 
@@ -48,13 +48,12 @@ public class ControleKaya : MonoBehaviour
         if (!finPartie)
         {
             // on mémorise la valeur des axes Horizontal et Vertical. On pourrait utiliser GetAxisRaw aussi.
-            float deplaceX = Input.GetAxisRaw("Horizontal");
-            float deplaceZ = Input.GetAxisRaw("Vertical");
+            float deplaceX = Input.GetAxis("Horizontal");
+            float deplaceZ = Input.GetAxis("Vertical");
 
             // transform.TransformDirection permet de transformer une direction locale en direction du monde (local space to world space)
             // On calcul le vecteur de déplacement en utilisant la direction qu'on mutiplie par la vitesse;
             Vector3 deplacement = transform.TransformDirection(new Vector3(deplaceX, 0f, deplaceZ) * vitesse);
-
 
 
             // Permet de savoir si le characterController touche au sol
@@ -133,10 +132,52 @@ public class ControleKaya : MonoBehaviour
     {
         valeurDeplacement.y = 0f;
         if (!finPartie)
-        {           
-            bool marche = false;
-            if (valeurDeplacement.magnitude > 1f && auSol) marche = true;
-            GetComponent<Animator>().SetBool("marche", marche);
+        {   
+            // on mémorise la valeur des axes Horizontal et Vertical. On pourrait utiliser GetAxisRaw aussi.
+            float deplaceX = Input.GetAxis("Horizontal");
+            float deplaceZ = Input.GetAxis("Vertical");
+
+            if(valeurDeplacement.magnitude < 1f) GetComponent<Animator>().SetInteger("statueAnimation", -1);
+
+            //-------------------------DÉPLACEMENT VERS L'AVANT
+            bool marcheAvant = false;
+            if (valeurDeplacement.magnitude > 1f && deplaceZ > 0.1f && auSol)
+            {
+                marcheAvant = true;
+                GetComponent<Animator>().SetInteger("statueAnimation", 2);
+            }
+            GetComponent<Animator>().SetBool("marcheAvant", marcheAvant);
+
+
+            //-------------------------DÉPLACEMENT VERS L'ARRIÈRE
+            bool marcheArriere = false;
+            if (valeurDeplacement.magnitude > 1f && deplaceZ < -0.1f && auSol)
+            {
+                marcheArriere = true;
+                GetComponent<Animator>().SetInteger("statueAnimation", 3);
+            }
+            GetComponent<Animator>().SetBool("marcheArriere", marcheArriere);
+
+
+            //-------------------------DÉPLACEMENT À GAUCHE
+            bool marcheCoteGauche = false;
+            if (deplaceX < -0.1f && Mathf.Abs(deplaceZ) < 0.1f)
+            {
+                marcheCoteGauche = true;
+                GetComponent<Animator>().SetInteger("statueAnimation", 0);
+            }
+            GetComponent<Animator>().SetBool("marcheCoteGauche", marcheCoteGauche);
+
+
+            //-------------------------DÉPLACEMENT À DROITE
+            bool marcheCoteDroit = false;
+            if (deplaceX > 0.1f && Mathf.Abs(deplaceZ) < 0.1f)
+            {
+                marcheCoteDroit = true; 
+                GetComponent<Animator>().SetInteger("statueAnimation", 1);
+            }
+            GetComponent<Animator>().SetBool("marcheCoteDroit", marcheCoteDroit);
+
         }
         else
         {

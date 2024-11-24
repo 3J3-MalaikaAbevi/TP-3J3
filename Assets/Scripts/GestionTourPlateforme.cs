@@ -7,25 +7,35 @@
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using Unity.Collections.LowLevel.Unsafe;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class GestionTourPlateforme : MonoBehaviour
 {
     float minuteurRound; //Minuteur pour le temps alou� pour aller � une bonne plateforme selon le round
     public float minuteur;  //Minuteur pour le temps alou� pour aller � une bonne plateforme
-    int repetitionRound = 2; //Variable pour le nombre de fois que la sequence d'un round s'execute
+    float tempsDePartieEnCours;
+    int repetitionRound = 2; //Variable pour le nombre de fois que la séquence d'un round s'execute
     int niveauEnCours = 1;  //Variable pour l'enregistrement du niveau atteint
 
     public GameObject kayaPersonnage;    //Réference à Kaya (personnage)
     public GameObject[] lesPlateformes;   //Tableau de gameObjects pour la gestion de chaque plateforme
     
-    bool decompteActif = false;    //Variable pour savoir si le minuteur est en marche ou non 
     bool peutCoroutine = true;     //Variable pour savoir si on peut démarrer une nouvelle coroutine ou non
-    bool peutProchainRound; //Variable pour savoir si on peut passer au prochain round ou non
-    
+    bool peutReduireUIMinuteur; //Variable pour savoir si la barre du minuteur peut réduire
+
     public TextMeshProUGUI texteMinuteur;     //Variable Texte pour le minuteur (UI)
+    public TextMeshProUGUI texteTempsPartieEnCours;     //Variable Texte pour le minuteur (UI)
+    public Image barreMinuteurIMG; //Variable pour la barre de progression du minuteur (UI)
+    public Color indiceBleu;
+    public Color indiceRouge;
+    public Color indiceVert;
+    public Color indiceOrange;
+
+    public Material matBlanc;
 
     void Start()
     {
@@ -38,21 +48,21 @@ public class GestionTourPlateforme : MonoBehaviour
         if (niveauEnCours == 1 && peutCoroutine)
         {
             minuteurRound = 10f;
-            StartCoroutine(GererTourDuree(10f));
+            StartCoroutine(GererTourDuree(8f));
         }
 
         //----------------Niveau 2
         if (niveauEnCours == 2  && peutCoroutine)
         {
             minuteurRound = 10f;
-            StartCoroutine(GererTourDuree(10f));
+            StartCoroutine(GererTourDuree(5f));
         }
 
         //----------------Niveau 3
         if (niveauEnCours == 3 && peutCoroutine)
         {
             minuteurRound = 10f;
-            StartCoroutine(GererTourDuree(10f));
+            StartCoroutine(GererTourDuree(3f));
         }
 
         //----------------Niveau 4
@@ -103,6 +113,15 @@ public class GestionTourPlateforme : MonoBehaviour
             minuteurRound = 10f;
             StartCoroutine(GererTourDuree(10f));
         }
+
+        /*-------------------------------------------------*/
+        if (peutReduireUIMinuteur)
+        {
+            GestionUIMinuteur();
+        }
+
+        /*-------------------------------------------------*/
+        GestionTempsPartie();
     }
 
     IEnumerator GererTourDuree(float pausePromenade)
@@ -110,17 +129,20 @@ public class GestionTourPlateforme : MonoBehaviour
     {
         // *******************************************************************************Tour Essaie --------
         //Appel de la fonction pour le changement de couleur
-
+        print("C'est le niveau " + niveauEnCours);
         while (repetitionRound != 0)
         {
             minuteur = minuteurRound; //On assigne la valeur du temps pour le minuteur par rapport au niveau en cours
             peutCoroutine = false;
-            
+            barreMinuteurIMG.GetComponent<Animator>().enabled = true;
+            barreMinuteurIMG.fillAmount = 1f;
+            barreMinuteurIMG.color = indiceBleu;
+
             foreach (GameObject laPlateforme in lesPlateformes)
             {
                 laPlateforme.GetComponent<GestionPlatformeIndividuelle>().ChangerCouleurPlateforme();
             }
-            // Une pause est marqu�e
+            // Une pause est marquée
             yield return new WaitForSeconds(pausePromenade);
 
             //On appelle la fonction qui change la couleur de plateforme à atteindre
@@ -128,6 +150,7 @@ public class GestionTourPlateforme : MonoBehaviour
 
             //On démarre le minuteur
             InvokeRepeating("GestionMinuteur", 1f, 1f);
+
             yield return new WaitForSeconds(minuteur);
 
             //Si le minuteur atteint 0, alors on peut poursuivre la suite du script
@@ -138,12 +161,13 @@ public class GestionTourPlateforme : MonoBehaviour
                     laPlateforme.GetComponent<GestionPlatformeIndividuelle>().EliminationPlateforme();
                 }
 
-                // Une pause est marqu�e
-                yield return new WaitForSeconds(7);
+                // Une pause est marquée
+                yield return new WaitForSeconds(5.5f);
 
                 //les plateformes réapparaissent
                 foreach (GameObject laPlateforme in lesPlateformes)
                 {
+                    laPlateforme.GetComponent<Renderer>().material = matBlanc;
                     laPlateforme.GetComponent<GestionPlatformeIndividuelle>().ApparitionPlateforme();
                 }
 
@@ -152,7 +176,7 @@ public class GestionTourPlateforme : MonoBehaviour
                 //La plateforme d'annonce devient blanche à nouveau
                 GetComponent<Renderer>().material = GetComponent<ControleEliminationPlateforme>().blanc;
 
-                yield return new WaitForSeconds(10);
+                yield return new WaitForSeconds(5);
                 minuteur = minuteurRound;
                 //peutProchainRound = true;
             }
@@ -168,7 +192,7 @@ public class GestionTourPlateforme : MonoBehaviour
 
         GetComponent<ControleEliminationPlateforme>().choixCouleurRange++;
 
-        repetitionRound = 2;  //Assignation du nombre de s�quence du prochain round
+        repetitionRound = 2;  //Assignation du nombre de séquence du prochain round
         peutCoroutine = true;
 
         
@@ -215,12 +239,42 @@ public class GestionTourPlateforme : MonoBehaviour
     {
         if(minuteur >= 0)
         {
+            peutReduireUIMinuteur = true;
             texteMinuteur.text = minuteur.ToString();
-            minuteur/*Round*/--; //Assignation du temps de jeu du prochain round
+            minuteur--; //Assignation du temps de jeu du prochain round
         }
         else
         {
+            peutReduireUIMinuteur = false;
             CancelInvoke("GestionMinuteur"); //On annule l'appel de la fonction pour le minuteur
         }
+    }
+
+    void GestionUIMinuteur()                                                                    
+    {
+        barreMinuteurIMG.GetComponent<Animator>().enabled = false;
+
+
+        barreMinuteurIMG.color = indiceVert;
+
+        if (barreMinuteurIMG.fillAmount < 0.65f)
+        {
+            barreMinuteurIMG.color = indiceOrange;
+        }
+
+        if (barreMinuteurIMG.fillAmount < 0.35f)
+        {
+            barreMinuteurIMG.color = indiceRouge;
+        }
+
+        //GESTION DE L'IMAGE DE LA BARRE DU MINUTEUR / UI
+        barreMinuteurIMG.fillAmount -= Time.deltaTime / minuteurRound;
+    }
+
+    void GestionTempsPartie()
+    {
+        tempsDePartieEnCours += Time.deltaTime;
+
+        texteTempsPartieEnCours.text =  Mathf.Floor(tempsDePartieEnCours / 60).ToString("00") + ":" + Mathf.FloorToInt(tempsDePartieEnCours % 60).ToString("00");
     }
 }
