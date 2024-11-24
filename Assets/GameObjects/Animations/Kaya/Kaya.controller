@@ -11,9 +11,6 @@ AnimatorStateTransition:
   - m_ConditionMode: 1
     m_ConditionEvent: saut
     m_EventTreshold: 0
-  - m_ConditionMode: 6
-    m_ConditionEvent: statueAnimation
-    m_EventTreshold: 3
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -689948780841340393}
   m_Solo: 0
@@ -191,9 +188,9 @@ AnimatorStateTransition:
   m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions:
-  - m_ConditionMode: 1
-    m_ConditionEvent: marcheAvant
-    m_EventTreshold: 0
+  - m_ConditionMode: 6
+    m_ConditionEvent: statueAnimation
+    m_EventTreshold: 2
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -6134330874373763650}
   m_Solo: 0
@@ -216,9 +213,9 @@ AnimatorStateTransition:
   m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions:
-  - m_ConditionMode: 1
-    m_ConditionEvent: marcheCoteDroit
-    m_EventTreshold: 0
+  - m_ConditionMode: 6
+    m_ConditionEvent: statueAnimation
+    m_EventTreshold: 1
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1863320286086136602}
   m_Solo: 0
@@ -241,8 +238,8 @@ AnimatorStateTransition:
   m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions:
-  - m_ConditionMode: 1
-    m_ConditionEvent: marcheCoteGauche
+  - m_ConditionMode: 6
+    m_ConditionEvent: statueAnimation
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 9110022660906697365}
@@ -497,7 +494,7 @@ AnimatorController:
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
-    m_DefaultBool: 1
+    m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
   - m_Name: marcheArriere
     m_Type: 4
@@ -544,9 +541,6 @@ AnimatorStateTransition:
   m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions:
-  - m_ConditionMode: 2
-    m_ConditionEvent: marcheArriere
-    m_EventTreshold: 0
   - m_ConditionMode: 6
     m_ConditionEvent: statueAnimation
     m_EventTreshold: -1
@@ -627,9 +621,6 @@ AnimatorStateTransition:
   m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions:
-  - m_ConditionMode: 2
-    m_ConditionEvent: marcheCoteGauche
-    m_EventTreshold: 0
   - m_ConditionMode: 6
     m_ConditionEvent: statueAnimation
     m_EventTreshold: -1
@@ -655,9 +646,6 @@ AnimatorStateTransition:
   m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions:
-  - m_ConditionMode: 2
-    m_ConditionEvent: marcheCoteDroit
-    m_EventTreshold: 0
   - m_ConditionMode: 6
     m_ConditionEvent: statueAnimation
     m_EventTreshold: -1
@@ -730,9 +718,9 @@ AnimatorStateTransition:
   m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions:
-  - m_ConditionMode: 1
-    m_ConditionEvent: marcheArriere
-    m_EventTreshold: 0
+  - m_ConditionMode: 6
+    m_ConditionEvent: statueAnimation
+    m_EventTreshold: 3
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 6080967090041511921}
   m_Solo: 0
@@ -755,9 +743,6 @@ AnimatorStateTransition:
   m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions:
-  - m_ConditionMode: 2
-    m_ConditionEvent: marcheAvant
-    m_EventTreshold: 0
   - m_ConditionMode: 6
     m_ConditionEvent: statueAnimation
     m_EventTreshold: -1
@@ -1001,22 +986,22 @@ AnimatorStateMachine:
     m_Position: {x: 480, y: 240, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -8097280444525341644}
-    m_Position: {x: 790, y: 90, z: 0}
+    m_Position: {x: 800, y: 110, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -689948780841340393}
-    m_Position: {x: 790, y: 20, z: 0}
+    m_Position: {x: 800, y: 10, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -6134330874373763650}
     m_Position: {x: 640, y: -520, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -7600393647389879055}
-    m_Position: {x: 30, y: -170, z: 0}
+    m_Position: {x: -210, y: 20, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 9110022660906697365}
     m_Position: {x: 150, y: -520, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1863320286086136602}
-    m_Position: {x: -10, y: -310, z: 0}
+    m_Position: {x: -10, y: -320, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 6080967090041511921}
     m_Position: {x: 780, y: -330, z: 0}

@@ -6,20 +6,20 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Dynamic;
-using Unity.Burst.CompilerServices;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class ControleKaya : MonoBehaviour
+public class ControleKaya_characterController : MonoBehaviour
 {
     public float vitesse;// vitesse de déplacement
     public float vitesseTourne; // vitesse de rotation
-    Rigidbody rigidbodyPerso; // référence au component characterController
+    CharacterController controleur; // référence au component characterController
     public AudioClip sonDefaite;   //Audioclip pour le son de défaite du joueur (effet)
 
     public float forceDuSaut; // hauteur du saut
-    public float velocitePersoY;
     public float gravite; // force de la gravité
+
+    public float velocitePersoY;  //Variable pour la vélocité du joueur en hauteur (saut)
 
     bool toucheSaut;   //Variable pour savoir si le joueur a sauter ou non
     bool finPartie;     //Variable pour savoir si la partie est finie ou non 
@@ -30,8 +30,8 @@ public class ControleKaya : MonoBehaviour
     {
         // Permet de verrouiller le curseur et de le masquer
         Cursor.lockState = CursorLockMode.Locked;
-        // On garde dans une variable la référence au component RigidBody
-        rigidbodyPerso = GetComponent<Rigidbody>();
+        // On garde dans une variable la référence au component CharacterController
+        controleur = GetComponent<CharacterController>();
     }
 
     void Update()
@@ -42,78 +42,62 @@ public class ControleKaya : MonoBehaviour
         }
     }
 
-    // Gestion du déplacement du Rigidbody avec Move qui permet le saut.
+    // Gestion du déplacement du CharacterController avec Move qui permet le saut.
     void FixedUpdate()
     {
-        // On mémorise la valeur des axes Horizontal et Vertical. On pourrait utiliser GetAxisRaw aussi.
-        float deplaceX;
-        float deplaceZ;
-
         if (!finPartie)
         {
-            deplaceX = Input.GetAxis("Horizontal");
-            deplaceZ = Input.GetAxis("Vertical");
+            // on mémorise la valeur des axes Horizontal et Vertical. On pourrait utiliser GetAxisRaw aussi.
+            float deplaceX = Input.GetAxis("Horizontal");
+            float deplaceZ = Input.GetAxis("Vertical");
+
+            // transform.TransformDirection permet de transformer une direction locale en direction du monde (local space to world space)
+            // On calcul le vecteur de déplacement en utilisant la direction qu'on mutiplie par la vitesse;
+            Vector3 deplacement = transform.TransformDirection(new Vector3(deplaceX, 0f, deplaceZ) * vitesse);
+
+
+            // Permet de savoir si le characterController touche au sol
+            auSol = controleur.isGrounded;
+
+            // On remet la velocitePersoY à 0 si le personnage est au sol et que la velocitePerso est
+            // plus petite que zéro.
+            if (auSol && velocitePersoY < 0) velocitePersoY = 0f;
+
+            // On permet le saut seulement si le characterController est au sol (avec la touche espace)
+            if (toucheSaut && auSol)
+            {
+                velocitePersoY = forceDuSaut; // On ajuste la variable velociteYPerso à la force du saut.
+                toucheSaut = false;
+                GetComponent<Animator>().SetTrigger("saut"); //On active le trigger pour l'animation du saut 
+
+                if (auSol)
+                {
+                    GetComponent<Animator>().SetTrigger("atterrissage");
+                }
+            }
+
+            velocitePersoY += gravite * Time.deltaTime; // On applique la gravité à la variable velocitePersoY (soustraction d'une valeur à velocityPerso
+
+
+
+            // On ajuste la valeur Y de notre variable de déplacement
+            deplacement.y = velocitePersoY;
+
+            // On applique le déplacement. Multiplié par Time.deltaTime pour éviter la variation du frameRate
+            controleur.Move(deplacement * Time.deltaTime);
+
+            // On fait tourner le personnage en fonction du déplacement horizontal de la souris
+            float tourne = Input.GetAxis("Mouse X") * vitesseTourne * Time.deltaTime;
+            transform.Rotate(0f, tourne, 0f);
+
+            if (avecAnimationPerso) GestionAnim(deplacement);
+            TournePersonnage();
         }
         else
-        //----------------------------FIN DE LA PARTIE****************************
-        {   
-            //Le joueur n'a plus de velocité en X et Z (marche)
-            deplaceX = 0;
-            deplaceZ = 0;
-            //Le joueur ne peut plus sauter
-            toucheSaut = false;
-            //On appelle la scène de fin après un délai
+        {
+            //Après un court délai, on appelle la fonction pour le redémmarage de la partie
             Invoke("RecommencerPartie", 10f);
         }
-
-        // transform.TransformDirection permet de transformer une direction locale en direction du monde (local space to world space)
-        // On calcul le vecteur de déplacement en utilisant la direction qu'on mutiplie par la vitesse;
-        Vector3 deplacement = transform.TransformDirection(new Vector3(deplaceX, 0f, deplaceZ) * vitesse);
-
-
-        // Permet de savoir si le characterController touche au sol
-        RaycastHit hit;
-        auSol = Physics.SphereCast(transform.position + new Vector3(0, 0.2f, 0), 0.15f, -Vector3.up, out hit, 0.16f);
-
-// ---------------------------SAUT***************************
-        // On remet la velocitePersoY à 0 si le personnage est au sol et que la velocitePerso est
-        // plus petite que zéro.
-        if (auSol && velocitePersoY < 0) velocitePersoY = 0f;
-
-        // On permet le saut seulement si le characterController est au sol (avec la touche espace)
-        if (toucheSaut && auSol)
-        {
-            //On invoque l'animation après un délai pour ajouter du réalisme à l'animation
-            Invoke("SautePersonnage", 0.3f);
-            toucheSaut = false;
-
-            GetComponent<Animator>().SetTrigger("saut"); //On active le trigger pour l'animation du saut 
-
-            if (auSol)
-            {
-                GetComponent<Animator>().SetTrigger("atterrissage");
-            }
-        }
-        velocitePersoY += gravite * Time.deltaTime; // On applique la gravité à la variable velocitePersoY (soustraction d'une valeur à velocityPerso
-
-        // On ajuste la valeur Y de notre variable de déplacement
-        deplacement.y = velocitePersoY;
-
-        if(auSol) print(hit.transform.name);   //Debug
-
-
-// ---------------------------DÉPLACEMENT***************************
-        // Application de la nouvelle vélocité enregistrée au rigidbody
-        rigidbodyPerso.velocity = deplacement;
-
-
-//-----------------------------ROTATION-----------------------------
-        // On fait tourner le personnage en fonction du déplacement horizontal de la souris
-        float tourne = Input.GetAxis("Mouse X") * vitesseTourne * Time.deltaTime;
-        transform.Rotate(0f, tourne, 0f);
-
-        if (avecAnimationPerso) GestionAnim(deplacement);
-        TournePersonnage();
     }
 
     //Fonction pour faire tourner dans une direction Kaya avec la souris
@@ -143,13 +127,6 @@ public class ControleKaya : MonoBehaviour
         Debug.DrawRay(camRay.origin, camRay.direction * 100, Color.yellow);
     }
 
-    //Fonction pour faire sauter Kaya
-    void SautePersonnage()
-    {
-        velocitePersoY = forceDuSaut; // On ajuste la variable velociteYPerso à la force du saut.
-    }
-
-
     //Fonction pour la gestion des animations de Kaya
     void GestionAnim(Vector3 valeurDeplacement)
     {
@@ -160,50 +137,61 @@ public class ControleKaya : MonoBehaviour
             float deplaceX = Input.GetAxis("Horizontal");
             float deplaceZ = Input.GetAxis("Vertical");
 
-            //-------------------------IDLE (Animation lorsque le personnage est en arrêt);
             if(valeurDeplacement.magnitude < 1f) GetComponent<Animator>().SetInteger("statueAnimation", -1);
 
             //-------------------------DÉPLACEMENT VERS L'AVANT
-            if (valeurDeplacement.magnitude > 1f && deplaceZ > 0.1f)
+            bool marcheAvant = false;
+            if (valeurDeplacement.magnitude > 1f && deplaceZ > 0.1f && auSol)
             {
+                marcheAvant = true;
                 GetComponent<Animator>().SetInteger("statueAnimation", 2);
             }
+            GetComponent<Animator>().SetBool("marcheAvant", marcheAvant);
 
 
             //-------------------------DÉPLACEMENT VERS L'ARRIÈRE
-            if (valeurDeplacement.magnitude > 1f && deplaceZ < -0.1f )
+            bool marcheArriere = false;
+            if (valeurDeplacement.magnitude > 1f && deplaceZ < -0.1f && auSol)
             {
+                marcheArriere = true;
                 GetComponent<Animator>().SetInteger("statueAnimation", 3);
             }
+            GetComponent<Animator>().SetBool("marcheArriere", marcheArriere);
 
 
             //-------------------------DÉPLACEMENT À GAUCHE
+            bool marcheCoteGauche = false;
             if (deplaceX < -0.1f && Mathf.Abs(deplaceZ) < 0.1f)
             {
+                marcheCoteGauche = true;
                 GetComponent<Animator>().SetInteger("statueAnimation", 0);
             }
+            GetComponent<Animator>().SetBool("marcheCoteGauche", marcheCoteGauche);
 
 
             //-------------------------DÉPLACEMENT À DROITE
+            bool marcheCoteDroit = false;
             if (deplaceX > 0.1f && Mathf.Abs(deplaceZ) < 0.1f)
             {
+                marcheCoteDroit = true; 
                 GetComponent<Animator>().SetInteger("statueAnimation", 1);
             }
+            GetComponent<Animator>().SetBool("marcheCoteDroit", marcheCoteDroit);
 
         }
         else
         {
-            //valeurDeplacement = new Vector3(0, 0, 0);
-            //GetComponent<Animator>().SetBool("defaite", true);
-            
-            //GetComponent<AudioSource>().PlayOneShot(sonDefaite);
+            valeurDeplacement = new Vector3(0, 0, 0);
+            GetComponent<Animator>().SetBool("defaite", true);
+            GetComponent<Animator>().SetBool("marche", false);
+            GetComponent<AudioSource>().PlayOneShot(sonDefaite);
         }
     }
 
-    //Fonction adaptée pour le Rigidbody pour la gestion des collisions
-    void OnCollisionEnter(Collision infoCollision)
+    //Fonction adaptée pour le CharacterController pour la gestion des collisions
+    void OnControllerColliderHit(ControllerColliderHit infoHit)
     {
-        if (infoCollision.gameObject.tag == "piqueDanger")
+        if (infoHit.gameObject.tag == "piqueDanger")
         {
             finPartie = true;
             print("c'est la fin!");
@@ -228,13 +216,5 @@ public class ControleKaya : MonoBehaviour
         SceneManager.LoadScene("scenePartie");
     }
 
-    
-    
-    //FONCTION POUR DEBUGGER LE SPHERECAST--------------------------------------
-    void OnDrawGizmos()
-    {
-        Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(transform.position + new Vector3(0, 0.3f, 0) - transform.up * 0.16f, 0.15f);
-    }
 }
 
