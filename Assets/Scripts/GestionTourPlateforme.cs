@@ -54,63 +54,63 @@ public class GestionTourPlateforme : MonoBehaviour
         //----------------Niveau 2
         if (niveauEnCours == 2  && peutCoroutine)
         {
-            minuteurRound = 10f;
+            minuteurRound = 8f;
             StartCoroutine(GererTourDuree(5f));
         }
 
         //----------------Niveau 3
         if (niveauEnCours == 3 && peutCoroutine)
         {
-            minuteurRound = 10f;
+            minuteurRound = 7f;
             StartCoroutine(GererTourDuree(3f));
         }
 
         //----------------Niveau 4
         if (niveauEnCours == 4 && peutCoroutine)
         {
-            minuteurRound = 10f;
+            minuteurRound = 6f;
             StartCoroutine(GererTourDuree(10f));
         }
 
         //----------------Niveau 5
         if (niveauEnCours == 5 && peutCoroutine)
         {
-            minuteurRound = 10f;
+            minuteurRound = 5f;
             StartCoroutine(GererTourDuree(10f));
         }
 
         //----------------Niveau 6
         if (niveauEnCours == 6 && peutCoroutine)
         {
-            minuteurRound = 10f;
+            minuteurRound = 5f;
             StartCoroutine(GererTourDuree(10f));
         }
 
         //----------------Niveau 7
         if (niveauEnCours == 7 && peutCoroutine)
         {
-            minuteurRound = 10f;
+            minuteurRound = 5f;
             StartCoroutine(GererTourDuree(10f));
         }
 
         //----------------Niveau 8
         if (niveauEnCours == 8 && peutCoroutine)
         {
-            minuteurRound = 10f;
+            minuteurRound = 4f;
             StartCoroutine(GererTourDuree(10f));
         }
 
         //----------------Niveau 9
         if (niveauEnCours == 9 && peutCoroutine)
         {
-            minuteurRound = 10f;
+            minuteurRound = 4f;
             StartCoroutine(GererTourDuree(10f));
         }
 
         //----------------Niveau 10 et plus 
         if (niveauEnCours >= 10 && peutCoroutine)
         {
-            minuteurRound = 10f;
+            minuteurRound = 3f;
             StartCoroutine(GererTourDuree(10f));
         }
 

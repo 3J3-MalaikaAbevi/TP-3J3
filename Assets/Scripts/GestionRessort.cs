@@ -20,10 +20,8 @@ public class GestionRessort : MonoBehaviour
 
     void OnCollisionEnter(Collision infoCollision)
     {
-        print("pas kaya tho");
         if(infoCollision.gameObject.name == "Kaya_perso")
         {
-            print("Ya un contact");
             infoCollision.gameObject.GetComponent<ControleKaya>().velocitePersoY = forcePropulsion;
         }    
     }

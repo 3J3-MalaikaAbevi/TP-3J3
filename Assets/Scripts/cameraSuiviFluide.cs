@@ -16,6 +16,7 @@ public class cameraSuiviFluide : MonoBehaviour
 
     public Vector3 distanceCamProche;   //Vector3 pour la distance souhaitée en caméra proche
     public Vector3 distanceCamEloigne;   //Vector3 pour la distance souhaitée en caméra éloignée
+    public Vector3 distanceCamDessus;   //
 
     public float Amortissement;   //Valeur pour le facteur d'ammortissement de la caméra (transition entre d'un Vector3 à un autre)
     void Start()
@@ -38,6 +39,13 @@ public class cameraSuiviFluide : MonoBehaviour
         {
             //Appel de la fonction pour le changement de distance de la caméra
             ChangementCam(distanceCamEloigne);
+        }
+
+        //Changement de la distance de la cam�ra si la touche 2 est appuy�e (�loignement)
+        if (Input.GetKeyDown(KeyCode.Alpha3))
+        {
+            //Appel de la fonction pour le changement de distance de la caméra
+            ChangementCam(distanceCamDessus);
         }
     }
 
