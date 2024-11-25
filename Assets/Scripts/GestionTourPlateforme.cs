@@ -20,6 +20,7 @@ public class GestionTourPlateforme : MonoBehaviour
     float tempsDePartieEnCours;
     int repetitionRound = 2; //Variable pour le nombre de fois que la séquence d'un round s'execute
     int niveauEnCours = 1;  //Variable pour l'enregistrement du niveau atteint
+    int tourEnCours = 0;
 
     public GameObject kayaPersonnage;    //Réference à Kaya (personnage)
     public GameObject[] lesPlateformes;   //Tableau de gameObjects pour la gestion de chaque plateforme
@@ -29,7 +30,10 @@ public class GestionTourPlateforme : MonoBehaviour
 
     public TextMeshProUGUI texteMinuteur;     //Variable Texte pour le minuteur (UI)
     public TextMeshProUGUI texteTempsPartieEnCours;     //Variable Texte pour le minuteur (UI)
+    public TextMeshProUGUI texteAnnonceTour; //
+    public TextMeshProUGUI texteAnnonceCouleur; //
     public Image barreMinuteurIMG; //Variable pour la barre de progression du minuteur (UI)
+    public Image couleurIMG; //
     public Color indiceBleu;
     public Color indiceRouge;
     public Color indiceVert;
@@ -132,6 +136,12 @@ public class GestionTourPlateforme : MonoBehaviour
         print("C'est le niveau " + niveauEnCours);
         while (repetitionRound != 0)
         {
+            tourEnCours++; //On augmente le numero du tour en cours
+            texteAnnonceTour.text = "Tour " + tourEnCours;
+            texteAnnonceCouleur.text = "";
+            texteMinuteur.text = "?";
+            couleurIMG.GetComponent<Animator>().enabled = true;
+
             minuteur = minuteurRound; //On assigne la valeur du temps pour le minuteur par rapport au niveau en cours
             peutCoroutine = false;
             barreMinuteurIMG.GetComponent<Animator>().enabled = true;
@@ -146,6 +156,7 @@ public class GestionTourPlateforme : MonoBehaviour
             yield return new WaitForSeconds(pausePromenade);
 
             //On appelle la fonction qui change la couleur de plateforme à atteindre
+            couleurIMG.GetComponent<Animator>().enabled = false;
             GetComponent<ControleEliminationPlateforme>().ChangerCouleurObjectif();
 
             //On démarre le minuteur
