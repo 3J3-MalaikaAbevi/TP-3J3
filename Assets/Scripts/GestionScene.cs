@@ -5,12 +5,15 @@
 */
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class GestionScene : MonoBehaviour
 {
     Scene sceneActuelle;
+    public GameObject[] textesInstructions;
+    int canvasActifInstructions;
 
     void Update()
     {
@@ -42,6 +45,45 @@ public class GestionScene : MonoBehaviour
             {
                 print("U");
                 SceneManager.LoadScene("sceneIntro");
+            }
+
+            //Si on clique sur la flèche de gauche, on passe à l'instuction suivante
+            if (Input.GetKeyDown(KeyCode.LeftArrow))
+            {
+                if (canvasActifInstructions < textesInstructions.Length)
+                {
+                    canvasActifInstructions++;
+                }
+                else
+                {
+                    canvasActifInstructions = textesInstructions.Length;
+                }
+            }
+
+            //Si on clique sur la flèche de droite, on retourne à l'instruction précédente
+            if (Input.GetKeyDown(KeyCode.RightArrow))
+            {
+                if (canvasActifInstructions > 1)
+                {
+                    canvasActifInstructions--;
+                }
+                else
+                {
+                    canvasActifInstructions = textesInstructions.Length;
+                }
+            }
+
+            //On active le canva voulu et on désactive les autres 
+            foreach (GameObject texte in textesInstructions)
+            {
+                if (texte.name == "instruction" + canvasActifInstructions.ToString())
+                {
+                    texte.SetActive(true);
+                }
+                else
+                {
+                    texte.SetActive(false);
+                }
             }
         }
     }

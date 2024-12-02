@@ -22,7 +22,7 @@ public class ControleKaya : MonoBehaviour
     public float gravite; // force de la gravité
 
     bool toucheSaut;   //Variable pour savoir si le joueur a sauter ou non
-    bool finPartie;     //Variable pour savoir si la partie est finie ou non 
+    public static bool finPartie;     //Variable pour savoir si la partie est finie ou non 
     public bool auSol;    //Variable pour savoir si le joueur est au sol ou non
     public bool avecAnimationPerso;    //Variable pour savoir si le joueur a des animations à éxecuter
 
@@ -225,7 +225,7 @@ public class ControleKaya : MonoBehaviour
     //Fonction pour recommencer la partie
     void RecommencerPartie()
     {
-        SceneManager.LoadScene("scenePartie");
+        SceneManager.LoadScene("sceneRetroFin");
     }
 
     

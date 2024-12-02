@@ -32,8 +32,10 @@ public class GestionTourPlateforme : MonoBehaviour
     public TextMeshProUGUI texteTempsPartieEnCours;     //Variable Texte pour le minuteur (UI)
     public TextMeshProUGUI texteAnnonceTour; //
     public TextMeshProUGUI texteAnnonceCouleur; //
+    public TextMeshProUGUI texteFinPartie;
     public Image barreMinuteurIMG; //Variable pour la barre de progression du minuteur (UI)
     public Image couleurIMG; //
+    public Image fondFinPartie;
     public Color indiceBleu;
     public Color indiceRouge;
     public Color indiceVert;
@@ -48,84 +50,93 @@ public class GestionTourPlateforme : MonoBehaviour
 
     void Update()
     {
-        //----------------Niveau 1
-        if (niveauEnCours == 1 && peutCoroutine)
+        if (!ControleKaya.finPartie)
         {
-            minuteurRound = 10f;
-            StartCoroutine(GererTourDuree(8f));
-        }
+            //----------------Niveau 1
+            if (niveauEnCours == 1 && peutCoroutine)
+            {
+                minuteurRound = 10f;
+                StartCoroutine(GererTourDuree(8f));
+            }
 
-        //----------------Niveau 2
-        if (niveauEnCours == 2  && peutCoroutine)
+            //----------------Niveau 2
+            if (niveauEnCours == 2 && peutCoroutine)
+            {
+                minuteurRound = 8f;
+                StartCoroutine(GererTourDuree(5f));
+            }
+
+            //----------------Niveau 3
+            if (niveauEnCours == 3 && peutCoroutine)
+            {
+                minuteurRound = 7f;
+                StartCoroutine(GererTourDuree(3f));
+            }
+
+            //----------------Niveau 4
+            if (niveauEnCours == 4 && peutCoroutine)
+            {
+                minuteurRound = 6f;
+                StartCoroutine(GererTourDuree(10f));
+            }
+
+            //----------------Niveau 5
+            if (niveauEnCours == 5 && peutCoroutine)
+            {
+                minuteurRound = 5f;
+                StartCoroutine(GererTourDuree(10f));
+            }
+
+            //----------------Niveau 6
+            if (niveauEnCours == 6 && peutCoroutine)
+            {
+                minuteurRound = 5f;
+                StartCoroutine(GererTourDuree(10f));
+            }
+
+            //----------------Niveau 7
+            if (niveauEnCours == 7 && peutCoroutine)
+            {
+                minuteurRound = 5f;
+                StartCoroutine(GererTourDuree(10f));
+            }
+
+            //----------------Niveau 8
+            if (niveauEnCours == 8 && peutCoroutine)
+            {
+                minuteurRound = 4f;
+                StartCoroutine(GererTourDuree(10f));
+            }
+
+            //----------------Niveau 9
+            if (niveauEnCours == 9 && peutCoroutine)
+            {
+                minuteurRound = 4f;
+                StartCoroutine(GererTourDuree(10f));
+            }
+
+            //----------------Niveau 10 et plus 
+            if (niveauEnCours >= 10 && peutCoroutine)
+            {
+                minuteurRound = 3f;
+                StartCoroutine(GererTourDuree(10f));
+            }
+
+            /*-------------------------------------------------*/
+            if (peutReduireUIMinuteur)
+            {
+                GestionUIMinuteur();
+            }
+
+            /*-------------------------------------------------*/
+            GestionTempsPartie();
+        }
+        else
         {
-            minuteurRound = 8f;
-            StartCoroutine(GererTourDuree(5f));
+            StopAllCoroutines(); //On arrête toutes les coroutines en cours
+            texteFinPartie.gameObject.SetActive(true);
+            fondFinPartie.gameObject.SetActive(true);  
         }
-
-        //----------------Niveau 3
-        if (niveauEnCours == 3 && peutCoroutine)
-        {
-            minuteurRound = 7f;
-            StartCoroutine(GererTourDuree(3f));
-        }
-
-        //----------------Niveau 4
-        if (niveauEnCours == 4 && peutCoroutine)
-        {
-            minuteurRound = 6f;
-            StartCoroutine(GererTourDuree(10f));
-        }
-
-        //----------------Niveau 5
-        if (niveauEnCours == 5 && peutCoroutine)
-        {
-            minuteurRound = 5f;
-            StartCoroutine(GererTourDuree(10f));
-        }
-
-        //----------------Niveau 6
-        if (niveauEnCours == 6 && peutCoroutine)
-        {
-            minuteurRound = 5f;
-            StartCoroutine(GererTourDuree(10f));
-        }
-
-        //----------------Niveau 7
-        if (niveauEnCours == 7 && peutCoroutine)
-        {
-            minuteurRound = 5f;
-            StartCoroutine(GererTourDuree(10f));
-        }
-
-        //----------------Niveau 8
-        if (niveauEnCours == 8 && peutCoroutine)
-        {
-            minuteurRound = 4f;
-            StartCoroutine(GererTourDuree(10f));
-        }
-
-        //----------------Niveau 9
-        if (niveauEnCours == 9 && peutCoroutine)
-        {
-            minuteurRound = 4f;
-            StartCoroutine(GererTourDuree(10f));
-        }
-
-        //----------------Niveau 10 et plus 
-        if (niveauEnCours >= 10 && peutCoroutine)
-        {
-            minuteurRound = 3f;
-            StartCoroutine(GererTourDuree(10f));
-        }
-
-        /*-------------------------------------------------*/
-        if (peutReduireUIMinuteur)
-        {
-            GestionUIMinuteur();
-        }
-
-        /*-------------------------------------------------*/
-        GestionTempsPartie();
     }
 
     IEnumerator GererTourDuree(float pausePromenade)
@@ -133,7 +144,7 @@ public class GestionTourPlateforme : MonoBehaviour
     {
         // *******************************************************************************Tour Essaie --------
         //Appel de la fonction pour le changement de couleur
-        print("C'est le niveau " + niveauEnCours);
+        //print("C'est le niveau " + niveauEnCours);
         while (repetitionRound != 0)
         {
             tourEnCours++; //On augmente le numero du tour en cours
