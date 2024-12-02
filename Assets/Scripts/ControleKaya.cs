@@ -99,7 +99,7 @@ public class ControleKaya : MonoBehaviour
         // On ajuste la valeur Y de notre variable de déplacement
         deplacement.y = velocitePersoY;
 
-        if(auSol) print(hit.transform.name);   //Debug
+        //if(auSol) print(hit.transform.name);   //Debug
 
 
 // ---------------------------DÉPLACEMENT***************************
@@ -194,7 +194,7 @@ public class ControleKaya : MonoBehaviour
         else
         {
             //valeurDeplacement = new Vector3(0, 0, 0);
-            //GetComponent<Animator>().SetBool("defaite", true);
+            GetComponent<Animator>().SetBool("defaite", true);
             
             //GetComponent<AudioSource>().PlayOneShot(sonDefaite);
         }
