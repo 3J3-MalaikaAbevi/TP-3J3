@@ -17,10 +17,10 @@ public class GestionTourPlateforme : MonoBehaviour
 {
     float minuteurRound; //Minuteur pour le temps alou� pour aller � une bonne plateforme selon le round
     public float minuteur;  //Minuteur pour le temps alou� pour aller � une bonne plateforme
-    float tempsDePartieEnCours;
+    public static float tempsDePartieEnCours;
     int repetitionRound = 2; //Variable pour le nombre de fois que la séquence d'un round s'execute
     int niveauEnCours = 1;  //Variable pour l'enregistrement du niveau atteint
-    int tourEnCours = 0;
+    public static int tourEnCours = 0;
 
     public GameObject kayaPersonnage;    //Réference à Kaya (personnage)
     public GameObject[] lesPlateformes;   //Tableau de gameObjects pour la gestion de chaque plateforme
@@ -33,15 +33,22 @@ public class GestionTourPlateforme : MonoBehaviour
     public TextMeshProUGUI texteAnnonceTour; //
     public TextMeshProUGUI texteAnnonceCouleur; //
     public TextMeshProUGUI texteFinPartie;
+
     public Image barreMinuteurIMG; //Variable pour la barre de progression du minuteur (UI)
     public Image couleurIMG; //
     public Image fondFinPartie;
+
     public Color indiceBleu;
     public Color indiceRouge;
     public Color indiceVert;
     public Color indiceOrange;
 
     public Material matBlanc;
+
+    bool activationPiques;
+    bool activationSolPiquant;
+    bool bombes;
+
 
     void Start()
     {

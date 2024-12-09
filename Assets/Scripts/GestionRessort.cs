@@ -11,6 +11,13 @@ public class GestionRessort : MonoBehaviour
         if(infoCollision.gameObject.name == "Kaya_perso")
         {
             infoCollision.gameObject.GetComponent<ControleKaya>().velocitePersoY = forcePropulsion;
+            this.transform.parent.gameObject.GetComponent<Animator>().SetBool("disparition", true);
+            Invoke("ApparitionRessort", 15f);
         }    
+    }
+
+    void ApparitionRessort()
+    {
+         this.transform.parent.gameObject.GetComponent<Animator>().SetBool("disparition", false);
     }
 }

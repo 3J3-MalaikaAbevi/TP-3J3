@@ -13,7 +13,7 @@ public class GestionScene : MonoBehaviour
 {
     Scene sceneActuelle;
     public GameObject[] textesInstructions;
-    int canvasActifInstructions;
+    int canvasActifInstructions = 1;
 
     void Update()
     {
@@ -43,40 +43,43 @@ public class GestionScene : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.U))
             {
-                print("U");
                 SceneManager.LoadScene("sceneIntro");
             }
 
             //Si on clique sur la flèche de gauche, on passe à l'instuction suivante
             if (Input.GetKeyDown(KeyCode.LeftArrow))
             {
-                if (canvasActifInstructions < textesInstructions.Length)
+                if (canvasActifInstructions > 1)
                 {
-                    canvasActifInstructions++;
+                    canvasActifInstructions--;
+                    print(canvasActifInstructions);
                 }
                 else
                 {
-                    canvasActifInstructions = textesInstructions.Length;
+                    canvasActifInstructions = 1;
+                    print(canvasActifInstructions);
                 }
             }
 
             //Si on clique sur la flèche de droite, on retourne à l'instruction précédente
             if (Input.GetKeyDown(KeyCode.RightArrow))
             {
-                if (canvasActifInstructions > 1)
+                if (canvasActifInstructions < textesInstructions.Length)
                 {
-                    canvasActifInstructions--;
+                    canvasActifInstructions++;
+                    print(canvasActifInstructions);
                 }
                 else
                 {
                     canvasActifInstructions = textesInstructions.Length;
+                    print(canvasActifInstructions);
                 }
             }
 
-            //On active le canva voulu et on désactive les autres 
+            //On active le texte voulu et on désactive les autres 
             foreach (GameObject texte in textesInstructions)
             {
-                if (texte.name == "instruction" + canvasActifInstructions.ToString())
+                if (texte.name == "instructions" + canvasActifInstructions.ToString())
                 {
                     texte.SetActive(true);
                 }

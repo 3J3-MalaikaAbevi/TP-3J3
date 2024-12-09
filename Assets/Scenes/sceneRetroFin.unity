@@ -5044,8 +5044,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 4278584869
+  m_fontColor: {r: 0.14465404, g: 0.024108991, b: 0.024108991, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -5317,7 +5317,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 353206312}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: d01b43af93a5b5c4290b8e3d9ba47151, type: 2}
   m_CullingMode: 0
@@ -6688,8 +6688,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 4278650661
+  m_fontColor: {r: 0.14509805, g: 0.02745098, b: 0.02745098, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -19720,8 +19720,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: X Tour(s) !
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 523959c014cce944280ace131068b743, type: 2}
-  m_sharedMaterial: {fileID: 5675656020545485349, guid: 523959c014cce944280ace131068b743, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: e0d65d679f9064544ae89159945a0a18, type: 2}
+  m_sharedMaterial: {fileID: -2557544995508412549, guid: e0d65d679f9064544ae89159945a0a18, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -20434,7 +20434,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1197291350}
-  - component: {fileID: 1197291349}
+  - component: {fileID: 1197291351}
   m_Layer: 0
   m_Name: GestionnaireScene
   m_TagString: Untagged
@@ -20442,19 +20442,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1197291349
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1197291348}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c24cb02c87091634e8e6e3b34ae2ab14, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textesInstructions: []
 --- !u!4 &1197291350
 Transform:
   m_ObjectHideFlags: 0
@@ -20470,6 +20457,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1197291351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1197291348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f04ff9a115d7a264192ea598d0c69f44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tempsTotalTexte: {fileID: 860629183}
+  toursAtteintsTexte: {fileID: 1125217653}
 --- !u!1001 &1201387283
 PrefabInstance:
   m_ObjectHideFlags: 0
