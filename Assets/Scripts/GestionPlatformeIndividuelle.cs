@@ -15,6 +15,9 @@ public class GestionPlatformeIndividuelle : MonoBehaviour
     public int choixCouleurRange; //Variable pour d�finir la position maximale dans le tableau de materiaux duquel le choix peut se faire
 
     public GameObject gestionnaireDeCouleurTour; //Référence au GameObject du gestionnaire de couleur/tour
+    
+    public Animator animatorCouleur;
+    public Animator animatorSolPiquant;
 
 
     public void ChangerCouleurPlateforme(){

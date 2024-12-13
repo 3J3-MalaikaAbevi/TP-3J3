@@ -22,8 +22,9 @@ public class GestionTourPlateforme : MonoBehaviour
     int niveauEnCours = 1;  //Variable pour l'enregistrement du niveau atteint
     public static int tourEnCours = 0;
 
-    public GameObject kayaPersonnage;    //Réference à Kaya (personnage)
+    public GameObject kayaPersonnage;   //Réference à Kaya (personnage)
     public GameObject[] lesPlateformes;   //Tableau de gameObjects pour la gestion de chaque plateforme
+    public GameObject[] lesPiquesMouvants;  //Tableau de gameObjects pour les piques Mouvants
     
     bool peutCoroutine = true;     //Variable pour savoir si on peut démarrer une nouvelle coroutine ou non
     bool peutReduireUIMinuteur; //Variable pour savoir si la barre du minuteur peut réduire
@@ -45,10 +46,8 @@ public class GestionTourPlateforme : MonoBehaviour
 
     public Material matBlanc;
 
-    bool activationPiques;
-    bool activationSolPiquant;
-    bool bombes;
-
+    public int nbActivationPiques;
+    public int nbActivationSolPiquant;
 
     void Start()
     {
@@ -84,50 +83,60 @@ public class GestionTourPlateforme : MonoBehaviour
             if (niveauEnCours == 4 && peutCoroutine)
             {
                 minuteurRound = 6f;
-                StartCoroutine(GererTourDuree(10f));
+                StartCoroutine(GererTourDuree(3f));
+                nbActivationPiques = 1;
             }
 
             //----------------Niveau 5
             if (niveauEnCours == 5 && peutCoroutine)
             {
                 minuteurRound = 5f;
-                StartCoroutine(GererTourDuree(10f));
+                StartCoroutine(GererTourDuree(3f));
+                nbActivationPiques = 2;
             }
 
             //----------------Niveau 6
             if (niveauEnCours == 6 && peutCoroutine)
             {
                 minuteurRound = 5f;
-                StartCoroutine(GererTourDuree(10f));
+                StartCoroutine(GererTourDuree(3f));
+                nbActivationPiques = 3;
             }
 
             //----------------Niveau 7
             if (niveauEnCours == 7 && peutCoroutine)
             {
                 minuteurRound = 5f;
-                StartCoroutine(GererTourDuree(10f));
+                StartCoroutine(GererTourDuree(3f));
+                nbActivationPiques = 4;
             }
 
             //----------------Niveau 8
             if (niveauEnCours == 8 && peutCoroutine)
             {
                 minuteurRound = 4f;
-                StartCoroutine(GererTourDuree(10f));
+                StartCoroutine(GererTourDuree(2f));
+                nbActivationPiques = 5;
             }
 
             //----------------Niveau 9
             if (niveauEnCours == 9 && peutCoroutine)
             {
                 minuteurRound = 4f;
-                StartCoroutine(GererTourDuree(10f));
+                StartCoroutine(GererTourDuree(2f));
+                nbActivationPiques = 6;
             }
 
             //----------------Niveau 10 et plus 
             if (niveauEnCours >= 10 && peutCoroutine)
             {
                 minuteurRound = 3f;
-                StartCoroutine(GererTourDuree(10f));
+                StartCoroutine(GererTourDuree(3f));
+                nbActivationPiques = 8;
             }
+
+            /*-------------------------------------------------*/
+            GestionObstacles();
 
             /*-------------------------------------------------*/
             if (peutReduireUIMinuteur)
@@ -213,64 +222,44 @@ public class GestionTourPlateforme : MonoBehaviour
 
         /*****************************************************************************************/
         yield return new WaitForSeconds(2);
-        niveauEnCours++;
-        foreach (GameObject laPlateforme in lesPlateformes)
+        if (niveauEnCours < 10)
         {
-            laPlateforme.GetComponent<GestionPlatformeIndividuelle>().choixCouleurRange++;
+            niveauEnCours++; //On augemente le niveau si on n'est pas encore au niveau infini 10
+            foreach (GameObject laPlateforme in lesPlateformes)
+            {
+                laPlateforme.GetComponent<GestionPlatformeIndividuelle>().choixCouleurRange++;   //On indique aux plateforme qu'elle peuvent prendre une toute nouvelle couleur
+            }
+
+            GetComponent<ControleEliminationPlateforme>().choixCouleurRange++; //On augmente les choix de couleurs de
+            repetitionRound = 2;  //Assignation du nombre de séquence du prochain round
+        }
+        else
+        {
+            repetitionRound = 10000; //Pour le niveau 10, Assignation d'une valeur de tour permis que je pense personne atteindra...
         }
 
-        GetComponent<ControleEliminationPlateforme>().choixCouleurRange++;
+        peutCoroutine = true;   //Puis on indique qu'une nouvelle coroutine peut etre démarré
+    }
 
-        repetitionRound = 2;  //Assignation du nombre de séquence du prochain round
-        peutCoroutine = true;
-
-        
-        // *******************************************************************************Tour 1---- 2 couleurs/15 secondes ---------
-
-
-        // *******************************************************************************Tour 2---- 3 couleurs/15 secondes --------
-
-
-        // *******************************************************************************Tour 3---- 4 couleurs/15 secondes ---------
-
-
-        // *******************************************************************************Tour 4---- 5 couleurs/12 secondes ---------
-
-
-        // *******************************************************************************Tour 5---- 6 couleurs/12 secondes ---------
-
-
-        // *******************************************************************************Tour 6---- 7 couleurs/10 secondes ---------
-
-
-        // *******************************************************************************Tour 7---- 8 couleurs/10 secondes ---------
-
-
-        // *******************************************************************************Tour 8---- 9 couleurs/8 secondes ---------
-
-
-        // *******************************************************************************Tour 9---- 10 couleurs/8 secondes ---------
-
-
-        // *******************************************************************************Tour 10 ++ ---- 10 couleurs/ 6 secondes ---------
-        //Tant que la r�petition n'est pas � z�ro, alors ce code s'execute
-        //Le code se r�pete jusqu'� ce que le joueur perd la partie (in�vitable car trop dure)
-        /*while (!kayaPersonnage.GetComponent<ControleKalya>().finPartie)
+    //Fonctions pour a gestion des obstacles
+    void GestionObstacles()
+    {
+        //On veut activer les piques du tableau selon le nombre voulu
+        for (int i = 0; i < nbActivationPiques; i++)
         {
-            yield return new WaitForSeconds(10); // Une pause est marqu�e
-            GetComponent<GestionPlatforme>().ChangerCouleurPlateforme(); //Appel de la fonction pour le changement de couleur
-        }
+            //Activation des piques selon l'index
 
-        SceneManager.LoadScene("SceneFinale");*/
+            lesPiquesMouvants[i].gameObject.SetActive(true);
+        }
     }
 
     void GestionMinuteur()
     {
-        if(minuteur >= 0)
+        if(minuteur > 0)
         {
             peutReduireUIMinuteur = true;
-            texteMinuteur.text = minuteur.ToString();
             minuteur--; //Assignation du temps de jeu du prochain round
+            texteMinuteur.text = minuteur.ToString();
         }
         else
         {

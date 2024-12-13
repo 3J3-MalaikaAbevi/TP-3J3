@@ -17,5 +17,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/sceneRetroFin.unity
     guid: 49d70fa8ff790b54ea7be64041fb5304
+  - enabled: 1
+    path: Assets/Scenes/sceneContexte.unity
+    guid: f83ab03c94ffffe4ca4453455f5272ee
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

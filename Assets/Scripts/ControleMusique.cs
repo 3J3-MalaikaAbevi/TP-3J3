@@ -9,17 +9,20 @@ public class ControleMusique : MonoBehaviour
     public Sprite imgAudioBtn;  //Variable img pour l'image du bouton en Play
     public Sprite imgMuteBtn;   //Variable img pour l'image du bouton en Pause
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        DontDestroyOnLoad(gameObject);    
-    }
-
-    // Update is called once per frame
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.M)) {
             ChangerEtatMusique();
+        }
+
+        GameObject laMusique = GameObject.Find("Musique");
+        if (laMusique.GetComponent<AudioSource>().isPlaying) 
+        {
+            imageEtatMusique.GetComponent<Image>().sprite = imgAudioBtn;
+        }
+        else
+        {
+            imageEtatMusique.GetComponent<Image>().sprite = imgMuteBtn;
         }
     }
 
@@ -27,15 +30,14 @@ public class ControleMusique : MonoBehaviour
     //Fonction pour faire jouer ou mettre sur mute la musique
     public void ChangerEtatMusique()
     {
-        if (GetComponent<AudioSource>().isPlaying) {
-
-            imageEtatMusique.GetComponent<Image>().sprite = imgMuteBtn;
-            GetComponent<AudioSource>().Pause();
+        GameObject laMusique = GameObject.Find("Musique");
+        if (laMusique.GetComponent<AudioSource>().isPlaying) 
+        {
+            laMusique.GetComponent<AudioSource>().Pause();
         }
         else
         {
-            imageEtatMusique.GetComponent<Image>().sprite = imgAudioBtn;
-            GetComponent<AudioSource>().Play();
+            laMusique.GetComponent<AudioSource>().Play();
         }
         
     }

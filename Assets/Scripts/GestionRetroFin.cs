@@ -8,11 +8,14 @@ public class GestionRetroFin : MonoBehaviour
 {
     public TextMeshProUGUI tempsTotalTexte;
     public TextMeshProUGUI toursAtteintsTexte;
+    public TextMeshProUGUI messageMeilleurScore;
     public static float meilleurTemps;
     public static int meilleurTours;
 
     void Start()
     {
+        meilleurTemps = 0;
+        meilleurTours = 0;
         //On enregistre une nouvelle valeur de meilleur score si celle de la partie finie est plus grande
         if(GestionTourPlateforme.tempsDePartieEnCours > meilleurTemps)
         {
@@ -22,6 +25,12 @@ public class GestionRetroFin : MonoBehaviour
         if(GestionTourPlateforme.tourEnCours > meilleurTours)
         {
             meilleurTours = GestionTourPlateforme.tourEnCours;
+        }
+
+        if(GestionTourPlateforme.tempsDePartieEnCours > meilleurTemps || GestionTourPlateforme.tourEnCours > meilleurTours)
+        {
+            messageMeilleurScore.text = "Wow, tu as battu un record !";
+            messageMeilleurScore.color = new Color(72, 205, 209, 255);
         }
 
         //On affiche les résultats de la partie

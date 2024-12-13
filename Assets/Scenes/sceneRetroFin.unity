@@ -255,6 +255,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &2371588
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -515,6 +517,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &32755160
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -672,6 +676,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &39258119
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -871,6 +877,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &47048874
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1028,6 +1036,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &74545391
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1185,6 +1195,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &89183731
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1342,6 +1354,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &112805735
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1499,6 +1513,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &115350241
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1656,6 +1672,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &126623623
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1813,6 +1831,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &134949002
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1970,6 +1990,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &135527091
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2127,6 +2149,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &138262622
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2284,6 +2308,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &147774227
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2441,6 +2467,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &149633038
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2668,6 +2696,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &158284830
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2825,6 +2855,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &168079369
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2982,6 +3014,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &185988680
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3139,6 +3173,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &186755583
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3160,6 +3196,142 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.00786743, y: 0.007867429, z: 0.003522408}
   m_Center: {x: 0, y: 0.000000007450581, z: 0.000047937432}
+--- !u!1 &194991891
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 194991892}
+  - component: {fileID: 194991894}
+  - component: {fileID: 194991893}
+  m_Layer: 5
+  m_Name: instructionTitre
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &194991892
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 194991891}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1562047821}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0.000061035156, y: -91.19992}
+  m_SizeDelta: {x: 676.5, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &194991893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 194991891}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Retour sur la partie
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 9085c69a1dd26db459895631404ca1e7, type: 2}
+  m_sharedMaterial: {fileID: -3838442535130367882, guid: 9085c69a1dd26db459895631404ca1e7, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4281479922
+  m_fontColor: {r: 0.9496855, g: 0.19411804, b: 0.19411804, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 16.92
+  m_fontSizeBase: 16.92
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &194991894
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 194991891}
+  m_CullTransparentMesh: 1
 --- !u!1001 &204522283
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3296,6 +3468,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &204522288
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3485,6 +3659,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &239465086
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3642,6 +3818,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &247967689
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3946,6 +4124,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &261135057
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4449,6 +4629,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &298347448
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4730,6 +4912,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &331313140
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4887,6 +5071,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &339050133
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4978,142 +5164,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6392a159be733f44f8e17c1362ddfd61, type: 3}
   m_PrefabInstance: {fileID: 342913528}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &349500078
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 349500079}
-  - component: {fileID: 349500081}
-  - component: {fileID: 349500080}
-  m_Layer: 5
-  m_Name: texteRetourIntro
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &349500079
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 349500078}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1562047821}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 343.7, y: -24.7}
-  m_SizeDelta: {x: 676.5, y: 50}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &349500080
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 349500078}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: "Presser U pour revenir \xE0 l'introduction"
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 523959c014cce944280ace131068b743, type: 2}
-  m_sharedMaterial: {fileID: 5675656020545485349, guid: 523959c014cce944280ace131068b743, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4278584869
-  m_fontColor: {r: 0.14465404, g: 0.024108991, b: 0.024108991, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 31.66
-  m_fontSizeBase: 31.66
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_TextWrappingMode: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 0
-  m_ActiveFontFeatures: 6e72656b
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_EmojiFallbackSupport: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &349500081
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 349500078}
-  m_CullTransparentMesh: 1
 --- !u!1001 &352036430
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5250,6 +5300,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &352036435
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5282,7 +5334,6 @@ GameObject:
   - component: {fileID: 353206313}
   - component: {fileID: 353206316}
   - component: {fileID: 353206315}
-  - component: {fileID: 353206314}
   m_Layer: 5
   m_Name: cadreMessage
   m_TagString: Untagged
@@ -5309,28 +5360,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 432.2, y: 340.7}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!95 &353206314
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 353206312}
-  m_Enabled: 0
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: d01b43af93a5b5c4290b8e3d9ba47151, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &353206315
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5505,6 +5534,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &375758110
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5702,6 +5733,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &378385167
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5965,6 +5998,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &386851352
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6184,6 +6219,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &393051595
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6444,6 +6481,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &394935768
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6601,6 +6640,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &399659400
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6622,142 +6663,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.00786743, y: 0.007867429, z: 0.003522408}
   m_Center: {x: 0, y: 0.000000007450581, z: 0.000047937436}
---- !u!1 &402432397
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 402432398}
-  - component: {fileID: 402432400}
-  - component: {fileID: 402432399}
-  m_Layer: 5
-  m_Name: commencerPartieTexte
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &402432398
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 402432397}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1562047821}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0}
-  m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 24.1}
-  m_SizeDelta: {x: 676.5, y: 50}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &402432399
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 402432397}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: Presser la barre d'espace pour commencer une nouvelle partie
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 523959c014cce944280ace131068b743, type: 2}
-  m_sharedMaterial: {fileID: 5675656020545485349, guid: 523959c014cce944280ace131068b743, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4278650661
-  m_fontColor: {r: 0.14509805, g: 0.02745098, b: 0.02745098, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 23.89
-  m_fontSizeBase: 23.89
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 256
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_TextWrappingMode: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 0
-  m_ActiveFontFeatures: 6e72656b
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_EmojiFallbackSupport: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &402432400
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 402432397}
-  m_CullTransparentMesh: 1
 --- !u!1001 &405848004
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6828,6 +6733,217 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6392a159be733f44f8e17c1362ddfd61, type: 3}
   m_PrefabInstance: {fileID: 405848004}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &408923756
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 408923757}
+  - component: {fileID: 408923759}
+  - component: {fileID: 408923758}
+  m_Layer: 5
+  m_Name: etatMusiqueUI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &408923757
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 408923756}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1562047821}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: -30, y: 30}
+  m_SizeDelta: {x: 42.47, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &408923758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 408923756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: b236bed0d665fe046a1e222201931e39, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &408923759
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 408923756}
+  m_CullTransparentMesh: 1
+--- !u!1 &411672409
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 411672410}
+  - component: {fileID: 411672412}
+  - component: {fileID: 411672411}
+  m_Layer: 5
+  m_Name: meilleursScoreEnregistre
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &411672410
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 411672409}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1562047821}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -119.39}
+  m_SizeDelta: {x: 676.5, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &411672411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 411672409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: X Tour(s) et 00:00 min
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: e0d65d679f9064544ae89159945a0a18, type: 2}
+  m_sharedMaterial: {fileID: -2557544995508412549, guid: e0d65d679f9064544ae89159945a0a18, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294638330
+  m_fontColor: {r: 0.9811321, g: 0.9811321, b: 0.9811321, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 33
+  m_fontSizeBase: 33
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &411672412
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 411672409}
+  m_CullTransparentMesh: 1
 --- !u!1001 &418535768
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6964,6 +7080,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &418535773
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7121,6 +7239,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &424713918
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7705,6 +7825,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &454965939
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7862,6 +7984,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &473305831
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8019,6 +8143,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &481476753
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8176,6 +8302,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &482976725
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8333,6 +8461,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &483351116
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8490,6 +8620,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &484128782
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8761,6 +8893,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &491797888
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9045,6 +9179,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &533494771
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9202,6 +9338,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &536975818
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9484,6 +9622,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &559708955
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9641,6 +9781,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &562357282
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9798,6 +9940,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &578096017
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9955,6 +10099,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &580058037
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10112,6 +10258,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &581499208
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10331,6 +10479,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &583293661
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10750,6 +10900,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &617911192
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10960,6 +11112,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &621285527
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11117,6 +11271,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &623529082
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11274,6 +11430,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &638369933
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11431,6 +11589,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &644680257
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11650,6 +11810,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &654154708
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11807,6 +11969,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &656905863
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11997,6 +12161,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &674081791
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12154,6 +12320,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &678037368
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12311,6 +12479,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &680791947
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12468,6 +12638,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &681268368
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12625,6 +12797,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &685802644
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12782,6 +12956,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &703714613
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12939,6 +13115,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &706741102
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13158,6 +13336,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &712804623
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13315,6 +13495,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &715476408
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13472,6 +13654,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &716116955
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13629,6 +13813,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &717811832
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13786,6 +13972,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &718331076
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14108,6 +14296,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &731148029
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14265,6 +14455,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &750706936
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14422,6 +14614,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &752952110
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14579,6 +14773,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &753552900
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14736,6 +14932,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &758492787
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14893,6 +15091,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &774120587
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15050,6 +15250,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &777018810
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15207,6 +15409,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &784705921
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15364,6 +15568,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &789073129
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15521,6 +15727,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &792854569
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15740,6 +15948,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &817884634
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15897,6 +16107,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &830528917
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16054,6 +16266,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &859698735
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16109,7 +16323,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -49.6}
+  m_AnchoredPosition: {x: 0, y: -14}
   m_SizeDelta: {x: 676.5, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &860629183
@@ -16141,8 +16355,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -16347,6 +16561,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &889098728
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16504,6 +16720,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &889515068
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16774,6 +16992,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &900316839
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16931,6 +17151,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &908357464
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17088,6 +17310,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &908648278
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17360,6 +17584,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &956174554
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17645,6 +17871,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &984542682
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17898,6 +18126,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &989822640
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18055,6 +18285,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1016769487
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18212,6 +18444,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1019070897
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18369,6 +18603,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1025126163
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18390,6 +18626,142 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.00786743, y: 0.007867429, z: 0.003522408}
   m_Center: {x: -0.0000000018626451, y: 0.000000007450581, z: 0.000047937425}
+--- !u!1 &1026383223
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1026383224}
+  - component: {fileID: 1026383226}
+  - component: {fileID: 1026383225}
+  m_Layer: 5
+  m_Name: commencerPartieTexte
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1026383224
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1026383223}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1562047821}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: -3.3, y: 21}
+  m_SizeDelta: {x: 676.5, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1026383225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1026383223}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Presser la barre d'espace pour commencer
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 523959c014cce944280ace131068b743, type: 2}
+  m_sharedMaterial: {fileID: 5675656020545485349, guid: 523959c014cce944280ace131068b743, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 26.4
+  m_fontSizeBase: 26.4
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1026383226
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1026383223}
+  m_CullTransparentMesh: 1
 --- !u!1001 &1040207477
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18568,6 +18940,81 @@ Transform:
   - {fileID: 983189008}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1041784680
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1041784681}
+  - component: {fileID: 1041784683}
+  - component: {fileID: 1041784682}
+  m_Layer: 5
+  m_Name: cadreCommencerJeu
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1041784681
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1041784680}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1562047821}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 0, y: 34.419975}
+  m_SizeDelta: {x: 571.5, y: 65.8}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1041784682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1041784680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.8490566, g: 0.43654326, b: 0.43654326, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 7b8cc286fad8c084d8781ff362d46520, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1041784683
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1041784680}
+  m_CullTransparentMesh: 1
 --- !u!1 &1054744219
 GameObject:
   m_ObjectHideFlags: 0
@@ -18602,7 +19049,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 86.2}
+  m_AnchoredPosition: {x: 0, y: 163}
   m_SizeDelta: {x: 676.5, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1054744221
@@ -18652,8 +19099,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 23.89
-  m_fontSizeBase: 23.89
+  m_fontSize: 23.8
+  m_fontSizeBase: 23.8
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -18840,6 +19287,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1060233042
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18997,6 +19446,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1061021612
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19264,6 +19715,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1069650980
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19483,6 +19936,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1103562163
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19640,6 +20095,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1115428997
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19695,7 +20152,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 19.92}
+  m_AnchoredPosition: {x: 0, y: 58}
   m_SizeDelta: {x: 676.5, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1125217653
@@ -19727,8 +20184,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -19933,6 +20390,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1151172104
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20090,6 +20549,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1152416779
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20247,6 +20708,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1160196140
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20404,6 +20867,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1174354862
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20435,6 +20900,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1197291350}
   - component: {fileID: 1197291351}
+  - component: {fileID: 1197291352}
   m_Layer: 0
   m_Name: GestionnaireScene
   m_TagString: Untagged
@@ -20471,6 +20937,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tempsTotalTexte: {fileID: 860629183}
   toursAtteintsTexte: {fileID: 1125217653}
+  messageMeilleurScore: {fileID: 411672411}
+--- !u!114 &1197291352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1197291348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 744e3a2e53e96824fa14bc0dd2949681, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  imageEtatMusique: {fileID: 408923758}
+  imgAudioBtn: {fileID: 21300000, guid: b236bed0d665fe046a1e222201931e39, type: 3}
+  imgMuteBtn: {fileID: 21300000, guid: b24b9b0b7d5d8854c87d56f303a86152, type: 3}
 --- !u!1001 &1201387283
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20883,6 +21365,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1207124938
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21040,6 +21524,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1209335707
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21095,7 +21581,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -25.8}
+  m_AnchoredPosition: {x: 0, y: 7}
   m_SizeDelta: {x: 676.5, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1214112254
@@ -21333,6 +21819,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1220786586
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21490,6 +21978,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1221754409
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21545,7 +22035,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 53.66}
+  m_AnchoredPosition: {x: 0, y: 75}
   m_SizeDelta: {x: 676.5, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1247064286
@@ -21783,6 +22273,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1255878790
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22051,6 +22543,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1267027978
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22328,6 +22822,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1288993195
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22485,6 +22981,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1294488775
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22506,6 +23004,81 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.00786743, y: 0.007867429, z: 0.003522408}
   m_Center: {x: -0.000000007450581, y: 1.7030801e-19, z: 0.000047937436}
+--- !u!1 &1300921607
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1300921608}
+  - component: {fileID: 1300921610}
+  - component: {fileID: 1300921609}
+  m_Layer: 5
+  m_Name: cadreRetourIntro
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1300921608
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1300921607}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1562047821}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 167.8, y: -26.400024}
+  m_SizeDelta: {x: 346, y: 57.2}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1300921609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1300921607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: d6af11ca3cb4a334988efd6f2812bf12, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1300921610
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1300921607}
+  m_CullTransparentMesh: 1
 --- !u!1001 &1311384124
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22642,6 +23215,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1311384129
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22978,6 +23553,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1354802186
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23135,6 +23712,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1360242576
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23292,6 +23871,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1363021203
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23449,6 +24030,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1385826613
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23719,6 +24302,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1396922641
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23876,6 +24461,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1402832978
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24033,6 +24620,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1405137335
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24190,6 +24779,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1407512056
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24347,6 +24938,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1415958514
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24504,6 +25097,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1419783547
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24723,6 +25318,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1427021141
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24880,6 +25477,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1428084603
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25037,6 +25636,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1428514032
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25194,6 +25795,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1432111564
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25351,6 +25954,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1433144333
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25508,6 +26113,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1435589065
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25665,6 +26272,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1436828994
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25822,6 +26431,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1439784912
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25979,6 +26590,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1449019443
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26206,6 +26819,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1458657577
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26363,6 +26978,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1472297968
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26520,6 +27137,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1472970574
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26879,6 +27498,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1498641201
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27098,6 +27719,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1504669266
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27255,6 +27878,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1506273309
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27522,6 +28147,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1528892723
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27543,6 +28170,142 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.00786743, y: 0.007867429, z: 0.003522408}
   m_Center: {x: 0, y: 1.7030801e-19, z: 0.000047937436}
+--- !u!1 &1532168411
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1532168412}
+  - component: {fileID: 1532168414}
+  - component: {fileID: 1532168413}
+  m_Layer: 5
+  m_Name: retourIntroTexte
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1532168412
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1532168411}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1562047821}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 353.2, y: -43.5}
+  m_SizeDelta: {x: 676.5, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1532168413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1532168411}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "Presser U pour retourner \xE0 l'accueil"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 523959c014cce944280ace131068b743, type: 2}
+  m_sharedMaterial: {fileID: 5675656020545485349, guid: 523959c014cce944280ace131068b743, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4279599628
+  m_fontColor: {r: 0.045656808, g: 0.509434, b: 0.0824646, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 17.35
+  m_fontSizeBase: 17.35
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1532168414
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1532168411}
+  m_CullTransparentMesh: 1
 --- !u!1001 &1537461747
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27679,6 +28442,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1537461752
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27836,6 +28601,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1540193898
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27993,6 +28760,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1544312505
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28109,13 +28878,19 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 353206313}
-  - {fileID: 402432398}
   - {fileID: 1054744220}
+  - {fileID: 1983327007}
   - {fileID: 1247064285}
-  - {fileID: 1214112253}
   - {fileID: 1125217652}
+  - {fileID: 1214112253}
   - {fileID: 860629182}
-  - {fileID: 349500079}
+  - {fileID: 411672410}
+  - {fileID: 1300921608}
+  - {fileID: 1532168412}
+  - {fileID: 1041784681}
+  - {fileID: 1026383224}
+  - {fileID: 194991892}
+  - {fileID: 408923757}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -28259,6 +29034,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1566712485
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28416,6 +29193,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1586652980
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28573,6 +29352,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1597631075
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28730,6 +29511,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1597865510
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29053,6 +29836,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1612438845
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29210,6 +29995,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1614487894
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29367,6 +30154,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1616104546
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29594,6 +30383,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1639447238
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29751,6 +30542,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1646169423
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -30021,6 +30814,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1677857865
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -30240,6 +31035,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1689143305
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -30397,6 +31194,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1692833591
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -30554,6 +31353,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1697596189
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -30711,6 +31512,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1700923610
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -30868,6 +31671,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1702310086
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -31025,6 +31830,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1722001067
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -31297,6 +32104,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1726932812
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -31454,6 +32263,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1730123560
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -31611,6 +32422,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1740022690
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -31768,6 +32581,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1751538165
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -31925,6 +32740,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1754210734
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32082,6 +32899,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1755278858
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32471,6 +33290,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1804196024
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32741,6 +33562,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1810517800
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32898,6 +33721,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1813260130
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -33055,6 +33880,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1829947459
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -33212,6 +34039,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1835475038
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -33576,6 +34405,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1870416496
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -33829,6 +34660,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1895422276
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34048,6 +34881,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1912481019
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34205,6 +35040,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1913221109
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34362,6 +35199,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1917591499
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34519,6 +35358,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1923075874
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34770,6 +35611,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1935127792
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34927,6 +35770,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1939040421
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -35084,6 +35929,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1939126257
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -35241,6 +36088,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1947991757
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -35398,6 +36247,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1951371442
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -35555,6 +36406,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1976635760
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -35748,6 +36601,144 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d778ab8a70e14dd418d9fc659901e15b, type: 3}
   m_PrefabInstance: {fileID: 1980881345}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1983327006
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1983327007}
+  - component: {fileID: 1983327009}
+  - component: {fileID: 1983327008}
+  m_Layer: 5
+  m_Name: meilleurScoreTexte
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1983327007
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1983327006}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1562047821}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 0, y: 125.5}
+  m_SizeDelta: {x: 676.5, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1983327008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1983327006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 'Meilleur performance:
+
+'
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 523959c014cce944280ace131068b743, type: 2}
+  m_sharedMaterial: {fileID: 5675656020545485349, guid: 523959c014cce944280ace131068b743, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4285033368
+  m_fontColor: {r: 0.5943396, g: 0.41936156, b: 0.40650585, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 23.89
+  m_fontSizeBase: 23.89
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1983327009
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1983327006}
+  m_CullTransparentMesh: 1
 --- !u!1001 &1990120605
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35884,6 +36875,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &1990120610
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -36041,6 +37034,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &2007927418
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -36198,6 +37193,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &2029504107
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -36507,6 +37504,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &2040458369
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -36664,6 +37663,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &2051009712
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -36821,6 +37822,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &2052128079
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -36978,6 +37981,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &2056897990
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37197,6 +38202,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &2105442777
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37354,6 +38361,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &2106633202
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37511,6 +38520,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &2110734154
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37668,6 +38679,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &2116544293
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37895,6 +38908,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &2130278560
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -38052,6 +39067,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &2130447569
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -38346,6 +39363,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bfa079e3752322d47a579eaee334f12e, type: 2}
   choixCouleurRange: 2
   gestionnaireDeCouleurTour: {fileID: 0}
+  animatorCouleur: {fileID: 0}
+  animatorSolPiquant: {fileID: 0}
 --- !u!65 &2139934721
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -38373,9 +39392,9 @@ SceneRoots:
   m_Roots:
   - {fileID: 612392874}
   - {fileID: 427069010}
-  - {fileID: 1562047821}
   - {fileID: 936559633}
-  - {fileID: 1801896365}
   - {fileID: 1197291350}
   - {fileID: 1040903946}
   - {fileID: 555896761}
+  - {fileID: 1562047821}
+  - {fileID: 1801896365}
