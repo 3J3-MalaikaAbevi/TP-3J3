@@ -9,15 +9,20 @@ public class GestionRetroFin : MonoBehaviour
     public TextMeshProUGUI tempsTotalTexte;
     public TextMeshProUGUI toursAtteintsTexte;
     public TextMeshProUGUI messageMeilleurScore;
+    public TextMeshProUGUI meilleursEnregistrement;
     public static float meilleurTemps;
     public static int meilleurTours;
 
     void Start()
     {
-        meilleurTemps = 0;
-        meilleurTours = 0;
+        if(GestionTourPlateforme.tempsDePartieEnCours > meilleurTemps || GestionTourPlateforme.tourEnCours > meilleurTours)
+        {
+            messageMeilleurScore.text = "Wow, tu as battu un record !";
+            messageMeilleurScore.color = new Color(72, 205, 209, 255);
+        }
+
         //On enregistre une nouvelle valeur de meilleur score si celle de la partie finie est plus grande
-        if(GestionTourPlateforme.tempsDePartieEnCours > meilleurTemps)
+        if (GestionTourPlateforme.tempsDePartieEnCours > meilleurTemps)
         {
             meilleurTemps = GestionTourPlateforme.tempsDePartieEnCours;
         }
@@ -27,11 +32,8 @@ public class GestionRetroFin : MonoBehaviour
             meilleurTours = GestionTourPlateforme.tourEnCours;
         }
 
-        if(GestionTourPlateforme.tempsDePartieEnCours > meilleurTemps || GestionTourPlateforme.tourEnCours > meilleurTours)
-        {
-            messageMeilleurScore.text = "Wow, tu as battu un record !";
-            messageMeilleurScore.color = new Color(72, 205, 209, 255);
-        }
+        //Puis on écrit la valeur, nouvelle ou non, du meilleur record
+        meilleursEnregistrement.text = meilleurTours + " Tour(s) et " + Mathf.Floor(meilleurTemps / 60).ToString("00") + ":" + Mathf.FloorToInt(meilleurTemps % 60).ToString("00") + " min";
 
         //On affiche les résultats de la partie
         tempsTotalTexte.text = Mathf.Floor(GestionTourPlateforme.tempsDePartieEnCours / 60).ToString("00") + ":" + Mathf.FloorToInt(GestionTourPlateforme.tempsDePartieEnCours % 60).ToString("00") + " min";

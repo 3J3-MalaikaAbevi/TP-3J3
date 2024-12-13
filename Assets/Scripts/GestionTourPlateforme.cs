@@ -47,7 +47,7 @@ public class GestionTourPlateforme : MonoBehaviour
     public Material matBlanc;
 
     public int nbActivationPiques;
-    public int nbActivationSolPiquant;
+    public int nbActivationSolPiquant = 20;
 
     void Start()
     {
@@ -62,6 +62,7 @@ public class GestionTourPlateforme : MonoBehaviour
             if (niveauEnCours == 1 && peutCoroutine)
             {
                 minuteurRound = 10f;
+                nbActivationSolPiquant = 20;
                 StartCoroutine(GererTourDuree(8f));
             }
 
@@ -69,13 +70,15 @@ public class GestionTourPlateforme : MonoBehaviour
             if (niveauEnCours == 2 && peutCoroutine)
             {
                 minuteurRound = 8f;
+                nbActivationSolPiquant = 10;
                 StartCoroutine(GererTourDuree(5f));
             }
 
             //----------------Niveau 3
             if (niveauEnCours == 3 && peutCoroutine)
             {
-                minuteurRound = 7f;
+                minuteurRound = 7f;              
+                nbActivationSolPiquant = 10;
                 StartCoroutine(GererTourDuree(3f));
             }
 
@@ -83,56 +86,63 @@ public class GestionTourPlateforme : MonoBehaviour
             if (niveauEnCours == 4 && peutCoroutine)
             {
                 minuteurRound = 6f;
-                StartCoroutine(GererTourDuree(3f));
                 nbActivationPiques = 1;
+                nbActivationSolPiquant = 8;
+                StartCoroutine(GererTourDuree(3f));
             }
 
             //----------------Niveau 5
             if (niveauEnCours == 5 && peutCoroutine)
             {
                 minuteurRound = 5f;
-                StartCoroutine(GererTourDuree(3f));
                 nbActivationPiques = 2;
+                nbActivationSolPiquant = 6;
+                StartCoroutine(GererTourDuree(3f));
             }
 
             //----------------Niveau 6
             if (niveauEnCours == 6 && peutCoroutine)
             {
                 minuteurRound = 5f;
-                StartCoroutine(GererTourDuree(3f));
                 nbActivationPiques = 3;
+                nbActivationSolPiquant = 4;
+                StartCoroutine(GererTourDuree(3f));
             }
 
             //----------------Niveau 7
             if (niveauEnCours == 7 && peutCoroutine)
             {
                 minuteurRound = 5f;
-                StartCoroutine(GererTourDuree(3f));
                 nbActivationPiques = 4;
+                nbActivationSolPiquant = 4;
+                StartCoroutine(GererTourDuree(3f));
             }
 
             //----------------Niveau 8
             if (niveauEnCours == 8 && peutCoroutine)
             {
                 minuteurRound = 4f;
-                StartCoroutine(GererTourDuree(2f));
                 nbActivationPiques = 5;
+                nbActivationSolPiquant = 3;
+                StartCoroutine(GererTourDuree(2f));
             }
 
             //----------------Niveau 9
             if (niveauEnCours == 9 && peutCoroutine)
             {
                 minuteurRound = 4f;
-                StartCoroutine(GererTourDuree(2f));
                 nbActivationPiques = 6;
+                nbActivationSolPiquant = 2;
+                StartCoroutine(GererTourDuree(2f));
             }
 
             //----------------Niveau 10 et plus 
             if (niveauEnCours >= 10 && peutCoroutine)
             {
                 minuteurRound = 3f;
-                StartCoroutine(GererTourDuree(3f));
                 nbActivationPiques = 8;
+                nbActivationSolPiquant = 2;
+                StartCoroutine(GererTourDuree(3f));
             }
 
             /*-------------------------------------------------*/
@@ -174,6 +184,8 @@ public class GestionTourPlateforme : MonoBehaviour
             barreMinuteurIMG.GetComponent<Animator>().enabled = true;
             barreMinuteurIMG.fillAmount = 1f;
             barreMinuteurIMG.color = indiceBleu;
+
+            GetComponent<TransformationObstacle>().ChoixApparition(nbActivationSolPiquant);
 
             foreach (GameObject laPlateforme in lesPlateformes)
             {

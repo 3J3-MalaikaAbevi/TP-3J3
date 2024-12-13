@@ -853,7 +853,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -1163,6 +1163,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 744e3a2e53e96824fa14bc0dd2949681, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  musique: {fileID: 0}
   imageEtatMusique: {fileID: 1166096073}
   imgAudioBtn: {fileID: 21300000, guid: b236bed0d665fe046a1e222201931e39, type: 3}
   imgMuteBtn: {fileID: 21300000, guid: b24b9b0b7d5d8854c87d56f303a86152, type: 3}
@@ -2250,6 +2251,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 744e3a2e53e96824fa14bc0dd2949681, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  musique: {fileID: 630494001}
   imageEtatMusique: {fileID: 1166096073}
   imgAudioBtn: {fileID: 21300000, guid: b236bed0d665fe046a1e222201931e39, type: 3}
   imgMuteBtn: {fileID: 21300000, guid: b24b9b0b7d5d8854c87d56f303a86152, type: 3}
@@ -2383,7 +2385,7 @@ SceneRoots:
   - {fileID: 612392874}
   - {fileID: 427069010}
   - {fileID: 1562047821}
-  - {fileID: 1801896365}
   - {fileID: 630494003}
   - {fileID: 1197291350}
   - {fileID: 2010160863}
+  - {fileID: 1801896365}

@@ -26,20 +26,14 @@ public class ControleKaya : MonoBehaviour
     public bool auSol;    //Variable pour savoir si le joueur est au sol ou non
     public bool avecAnimationPerso;    //Variable pour savoir si le joueur a des animations à éxecuter
 
+    bool musiqueDefaiteJouer;   //Booléenne pour faire jouer le son de défaite une seule fois
+
     void Start()
     {
         // Permet de verrouiller le curseur et de le masquer
         Cursor.lockState = CursorLockMode.Locked;
         // On garde dans une variable la référence au component RigidBody
         rigidbodyPerso = GetComponent<Rigidbody>();
-    }
-
-    void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            toucheSaut = true;
-        }
     }
 
     // Gestion du déplacement du Rigidbody avec Move qui permet le saut.
@@ -63,7 +57,7 @@ public class ControleKaya : MonoBehaviour
             //Le joueur ne peut plus sauter
             toucheSaut = false;
             //On appelle la scène de fin après un délai
-            Invoke("RecommencerPartie", 10f);
+            Invoke("ChargerFin", 10f);
         }
 
         // transform.TransformDirection permet de transformer une direction locale en direction du monde (local space to world space)
@@ -80,26 +74,31 @@ public class ControleKaya : MonoBehaviour
         // plus petite que zéro.
         if (auSol && velocitePersoY < 0) velocitePersoY = 0f;
 
-        // On permet le saut seulement si le characterController est au sol (avec la touche espace)
-        if (toucheSaut && auSol)
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            //On invoque l'animation après un délai pour ajouter du réalisme à l'animation
-            Invoke("SautePersonnage", 0.3f);
-            toucheSaut = false;
-
-            GetComponent<Animator>().SetTrigger("saut"); //On active le trigger pour l'animation du saut 
-
-            if (auSol)
+            if (toucheSaut && auSol)
             {
-                GetComponent<Animator>().SetTrigger("atterrissage");
+                //On invoque l'animation après un délai pour ajouter du réalisme à l'animation
+                Invoke("SautePersonnage", 0.3f);
+                toucheSaut = false;
+
+                GetComponent<Animator>().SetTrigger("saut"); //On active le trigger pour l'animation du saut 
             }
         }
+
+        if (auSol)
+        {
+            Invoke("ActiverSaut", 0.5f);
+            GetComponent<Animator>().SetTrigger("atterrissage");
+        }
+        // On permet le saut seulement si le characterController est au sol (avec la touche espace)
+
         velocitePersoY += gravite * Time.deltaTime; // On applique la gravité à la variable velocitePersoY (soustraction d'une valeur à velocityPerso
 
         // On ajuste la valeur Y de notre variable de déplacement
         deplacement.y = velocitePersoY;
 
-        //if(auSol) print(hit.transform.name);   //Debug
+        //if(auSol) print(hit.transform.name);   //Debug---------------------
 
 
 // ---------------------------DÉPLACEMENT***************************
@@ -149,6 +148,12 @@ public class ControleKaya : MonoBehaviour
         velocitePersoY = forceDuSaut; // On ajuste la variable velociteYPerso à la force du saut.
     }
 
+    //Fonction pour ramener la possibilité de sauter
+    void ActiverSaut()
+    {
+        toucheSaut = true;
+    }
+
 
     //Fonction pour la gestion des animations de Kaya
     void GestionAnim(Vector3 valeurDeplacement)
@@ -193,10 +198,12 @@ public class ControleKaya : MonoBehaviour
         }
         else
         {
-            //valeurDeplacement = new Vector3(0, 0, 0);
             GetComponent<Animator>().SetBool("defaite", true);
-            
-            //GetComponent<AudioSource>().PlayOneShot(sonDefaite);
+            if (!musiqueDefaiteJouer)
+            {
+                GetComponent<AudioSource>().PlayOneShot(sonDefaite);
+                musiqueDefaiteJouer = true;
+            }
         }
     }
 
@@ -206,7 +213,6 @@ public class ControleKaya : MonoBehaviour
         if (infoCollision.gameObject.tag == "piqueDanger")
         {
             finPartie = true;
-            print("c'est la fin!");
         }
     }
 
@@ -217,20 +223,19 @@ public class ControleKaya : MonoBehaviour
         if(infoTrigger.gameObject.tag == "chuteFin")
         {
             finPartie = true;
-            print("c'est la fin!");
         }   
     }
 
 
     //Fonction pour recommencer la partie
-    void RecommencerPartie()
+    void ChargerFin()
     {
         SceneManager.LoadScene("sceneRetroFin");
     }
 
     
     
-    //FONCTION POUR DEBUGGER LE SPHERECAST--------------------------------------
+    //FONCTION POUR DÉBUGGER LE SPHERECAST--------------------------------------
     void OnDrawGizmos()
     {
         Gizmos.color = Color.red;

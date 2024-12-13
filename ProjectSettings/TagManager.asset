@@ -6,6 +6,10 @@ TagManager:
   tags:
   - piqueDanger
   - chuteFin
+  - Xplosion
+  - solAbsent
+  - solPresent
+  - danger
   layers:
   - Default
   - TransparentFX

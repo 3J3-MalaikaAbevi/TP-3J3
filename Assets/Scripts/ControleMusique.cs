@@ -5,8 +5,9 @@ using UnityEngine.UI;
 
 public class ControleMusique : MonoBehaviour
 {
+    public GameObject musique; //Variable pour l'object de base à l'intro
     public Image imageEtatMusique;   //Variable pour le bouton du controle de la musique 
-    public Sprite imgAudioBtn;  //Variable img pour l'image du bouton en Play
+    public Sprite imgAudioBtn;   //Variable img pour l'image du bouton en Play
     public Sprite imgMuteBtn;   //Variable img pour l'image du bouton en Pause
 
     void Update()
@@ -16,7 +17,7 @@ public class ControleMusique : MonoBehaviour
         }
 
         GameObject laMusique = GameObject.Find("Musique");
-        if (laMusique.GetComponent<AudioSource>().isPlaying) 
+        if (laMusique.GetComponent<AudioSource>().isPlaying)
         {
             imageEtatMusique.GetComponent<Image>().sprite = imgAudioBtn;
         }
@@ -26,19 +27,31 @@ public class ControleMusique : MonoBehaviour
         }
     }
 
-
     //Fonction pour faire jouer ou mettre sur mute la musique
     public void ChangerEtatMusique()
     {
-        GameObject laMusique = GameObject.Find("Musique");
-        if (laMusique.GetComponent<AudioSource>().isPlaying) 
+        if(GestionScene.sceneActuelle.name == "sceneIntro")
         {
-            laMusique.GetComponent<AudioSource>().Pause();
+            if (musique.GetComponent<AudioSource>().isPlaying)
+            {
+                musique.GetComponent<AudioSource>().Pause();
+            }
+            else
+            {
+                musique.GetComponent<AudioSource>().Play();
+            }
         }
         else
         {
-            laMusique.GetComponent<AudioSource>().Play();
+            GameObject laMusique = GameObject.Find("Musique");
+            if (laMusique.GetComponent<AudioSource>().isPlaying) 
+            {
+                laMusique.GetComponent<AudioSource>().Pause();
+            }
+            else
+            {
+                laMusique.GetComponent<AudioSource>().Play();
+            }
         }
-        
     }
 }

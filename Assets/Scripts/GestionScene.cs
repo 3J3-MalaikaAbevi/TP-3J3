@@ -36,7 +36,7 @@ public class GestionScene : MonoBehaviour
 
         if(sceneActuelle.name == "sceneIntro")
         {
-            meilleurTemps.text = Mathf.Floor(GestionRetroFin.meilleurTemps / 60).ToString("00") + ":" + Mathf.FloorToInt(GestionTourPlateforme.tempsDePartieEnCours % 60).ToString("00") + " min";
+            meilleurTemps.text = Mathf.Floor(GestionRetroFin.meilleurTemps / 60).ToString("00") + ":" + Mathf.FloorToInt(GestionRetroFin.meilleurTemps % 60).ToString("00") + " min";
             meilleurTours.text = GestionRetroFin.meilleurTours + " tours";
         }
     }
