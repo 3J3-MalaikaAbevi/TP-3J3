@@ -1,3 +1,8 @@
+/*  Fonctionnement et utilité générale du script
+    Controle et gestion du personnage Kaya
+    Par : Malaïka Abevi
+    Dernière modification : 24/11/2024
+*/
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
